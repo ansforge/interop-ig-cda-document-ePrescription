@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="44c83f83-5db3-4dbf-8f03-97ba49cf4ce5"/>
+  <meta>
+    <lastUpdated value="2026-09-30T07:55:07.187+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html">codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202609211638 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1096"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1096">MED-1096</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1096&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1096&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1097"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1097">MED-1097</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1097&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1097&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1098"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1098">MED-1098</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1098&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1098&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1132"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1132">MED-1132</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1132&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1132&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1094"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1094">MED-1094</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1094&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1094&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1095"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1095">MED-1095</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1095&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1095&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1159"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1159">MED-1159</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1159&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1159&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+        <version value="0.1.0"/>
+        <name value="FRValueSetEPMEDDMSousTypePrescription"/>
+        <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
+        <status value="draft"/>
+        <date value="2026-09-30T07:55:07+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1801c092-b74d-4fcd-9f9d-924155e423f6"/>
+          <timestamp value="2026-09-30T07:56:28+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1096"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1097"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1098"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1132"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1094"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1095"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1159"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html">codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202609211638 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1096"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1096">MED-1096</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1096&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1096&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1097"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1097">MED-1097</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1097&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1097&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1098"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1098">MED-1098</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1098&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1098&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1132"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1132">MED-1132</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1132&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1132&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1094"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1094">MED-1094</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1094&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1094&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1095"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1095">MED-1095</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1095&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1095&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1159"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1159">MED-1159</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1159&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1159&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+        <version value="0.1.0"/>
+        <name value="FRValueSetEPMEDDMSousTypePrescription"/>
+        <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
+        <status value="draft"/>
+        <date value="2026-09-30T07:55:07+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:142258de-09cd-4363-99df-3cd6cedcc271"/>
+          <timestamp value="2026-09-30T07:56:28+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1096"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1097"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1098"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1132"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1094"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1095"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1159"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html">codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202609211638 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1096"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1096">MED-1096</a>
+                </td>
+                <td>Prescription bizone</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1096&quot;, &quot;display&quot;: &quot;Prescription bizone&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1096&quot;&gt;&lt;display value=&quot;Prescription bizone&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1097"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1097">MED-1097</a>
+                </td>
+                <td>Prescription médicaments d'exception</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1097&quot;, &quot;display&quot;: &quot;Prescription médicaments d'exception&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1097&quot;&gt;&lt;display value=&quot;Prescription médicaments d'exception&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1098"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1098">MED-1098</a>
+                </td>
+                <td>Ordonnance sécurisée</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1098&quot;, &quot;display&quot;: &quot;Ordonnance sécurisée&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1098&quot;&gt;&lt;display value=&quot;Ordonnance sécurisée&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1132"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1132">MED-1132</a>
+                </td>
+                <td>Prescription grand appareillage</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1132&quot;, &quot;display&quot;: &quot;Prescription grand appareillage&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1132&quot;&gt;&lt;display value=&quot;Prescription grand appareillage&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1094"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1094">MED-1094</a>
+                </td>
+                <td>Exécution à domicile</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1094&quot;, &quot;display&quot;: &quot;Exécution à domicile&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1094&quot;&gt;&lt;display value=&quot;Exécution à domicile&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1095"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1095">MED-1095</a>
+                </td>
+                <td>Exécution en urgence</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1095&quot;, &quot;display&quot;: &quot;Exécution en urgence&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1095&quot;&gt;&lt;display value=&quot;Exécution en urgence&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis-MED-1159"> </a>
+                  <code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1159">MED-1159</a>
+                </td>
+                <td>Affection militaire</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;, &quot;version&quot;: &quot;202609211638&quot;, &quot;code&quot;: &quot;MED-1159&quot;, &quot;display&quot;: &quot;Affection militaire&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis&quot;&gt;&lt;version value=&quot;202609211638&quot;&gt;&lt;code value=&quot;MED-1159&quot;&gt;&lt;display value=&quot;Affection militaire&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"/>
+        <version value="0.1.0"/>
+        <name value="FRValueSetEPMEDDMSousTypePrescription"/>
+        <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
+        <status value="draft"/>
+        <date value="2026-09-30T07:55:07+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:540315dc-6d6e-444e-ba52-d9a3a5019321"/>
+          <timestamp value="2026-09-30T07:56:28+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638"/>
+          </parameter>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1096"/>
+            <display value="Prescription bizone"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1097"/>
+            <display value="Prescription médicaments d'exception"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1098"/>
+            <display value="Ordonnance sécurisée"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1132"/>
+            <display value="Prescription grand appareillage"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1094"/>
+            <display value="Exécution à domicile"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1095"/>
+            <display value="Exécution en urgence"/>
+          </contains>
+          <contains>
+            <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+            <code value="MED-1159"/>
+            <display value="Affection militaire"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

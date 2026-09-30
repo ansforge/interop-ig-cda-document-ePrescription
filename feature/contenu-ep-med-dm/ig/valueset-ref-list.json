@@ -1,0 +1,14 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FRValueSetEPMEDDMSousTypePrescription",
+    "title" : "ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM",
+    "description" : "Jeu de valeurs regroupant les sous-types de la ePrescription eP-MED-DM (documentationOf[n]/serviceEvent/code) : bizone, médicaments d'exception, ordonnance sécurisée, grand appareillage, exécution à domicile, exécution en urgence et affection militaire.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-cda-clinical-document-ep-med-dm.html" : "CDA - clinicalDocument eP-MED-DM"
+  }]
+}

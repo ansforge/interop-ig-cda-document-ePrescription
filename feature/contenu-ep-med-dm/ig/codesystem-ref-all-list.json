@@ -1,0 +1,453 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/cda/stds/core/CodeSystem/BinaryDataEncoding",
+    "version" : "2.0.3-sd",
+    "status" : "draft",
+    "name" : "BinaryDataEncoding",
+    "title" : "Binary Data Encoding Code System",
+    "description" : "Identifies the representation of binary data in a text field",
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-BinaryDataEncoding.html" : "CDABinaryDataEncoding"
+  },
+  {
+    "url" : "http://loinc.org",
+    "version" : "3.1.0",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+    "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+    "oids" : ["2.16.840.1.113883.6.1"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260901",
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT core",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-human-substance-administration-site-cisis.html" : "JDV Human Substance Administration Site CISIS"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/naics",
+    "version" : "2.0.1",
+    "status" : "retired",
+    "name" : "Naics",
+    "title" : "North American Industry Classification System",
+    "description" : "North American Industry Classification System(NAICS) for the United States, a new economic classification system that replaces the 1987 Standard Industrial Classification (SIC) for statistical purposes. NAICS is a system for classifying establishments by type of economic activity. Its purposes are: (1) to facilitate the collection, tabulation, presentation, and analysis of data relating to establishments, and (2) to promote uniformity and comparability in the presentation of statistical data describing the economy. NAICS will be used by Federal statistical agencies that collect or publish data by industry.",
+    "oids" : ["2.16.840.1.113883.6.85"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-OrganizationIndustryClassNAICS.html" : "OrganizationIndustryClassNAICS"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ActClass",
+    "title" : "ActClass",
+    "description" : "A code specifying the major type of Act that this Act-instance represents.\r\n\r\n*Constraints:* The classCode domain is a tightly controlled vocabulary, not an external or user-defined vocabulary.\r\n\r\nEvery Act-instance must have a classCode. If the act class is not further specified, the most general Act.classCode (ACT) is used.\r\n\r\nThe Act.classCode must be a generalization of the specific Act concept (e.g., as expressed in Act.code), in other words, the Act concepts conveyed in an Act must be specializations of the Act.classCode. Especially, Act.code is not a \"modifier\" that can alter the meaning of a class code. (See Act.code for contrast.)",
+    "oids" : ["2.16.840.1.113883.5.6"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActClass.html" : "CDAActClass",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassRecordOrganizer.html" : "ActClassRecordOrganizer",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassDocument.html" : "ActClassDocument",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassSupply.html" : "ActClassSupply",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActClassObservation.html" : "CDAActClassObservation"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "version" : "11.0.0",
+    "status" : "active",
+    "name" : "ActCode",
+    "title" : "ActCode",
+    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+    "oids" : ["2.16.840.1.113883.5.4"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActSubstanceAdministrationCode.html" : "CDAActSubstanceAdministrationCode"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ActMood",
+    "title" : "ActMood",
+    "description" : "OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found \"Persuasive With Mod\", with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM.",
+    "oids" : ["2.16.840.1.113883.5.1001"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActMoodPredicate.html" : "ActMoodPredicate",
+    "http://terminology.hl7.org/5.2.0/ValueSet-v3-xDocumentSubstanceMood.html" : "x_DocumentSubstanceMood",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActMood.html" : "CDAActMood"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ActPriority",
+    "title" : "ActPriority",
+    "description" : "A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.",
+    "oids" : ["2.16.840.1.113883.5.7"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActPriority.html" : "ActPriority"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ActRelationshipType",
+    "title" : "ActRelationshipType",
+    "description" : "The source is an excerpt from the target.",
+    "oids" : ["2.16.840.1.113883.5.1002"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xActRelationshipEntryRelationship.html" : "x_ActRelationshipEntryRelationship",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xActRelationshipEntry.html" : "x_ActRelationshipEntry",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xActRelationshipExternalReference.html" : "x_ActRelationshipExternalReference",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActRelationshipType.html" : "CDAActRelationshipType",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActRelationshipHasComponent.html" : "ActRelationshipHasComponent"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ActStatus",
+    "title" : "ActStatus",
+    "description" : "Codes representing the defined possible states of an Act, as defined by the Act class state machine.",
+    "oids" : ["2.16.840.1.113883.5.14"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActStatus.html" : "ActStatus",
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-hl7-v3-ActStatus-cisis.html" : "ActStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-CompressionAlgorithm",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "CompressionAlgorithm",
+    "title" : "CompressionAlgorithm",
+    "description" : "Type of compression algorithm used",
+    "oids" : ["2.16.840.1.113883.5.1009"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDACompressionAlgorithm.html" : "CDACompressionAlgorithm"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ContextControl",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ContextControl",
+    "title" : "ContextControl",
+    "description" : "A code that specifies how an ActRelationship or Participation contributes to the context of an Act, and whether it may be propagated to descendent Acts whose association allows such propagation (see also attributes Participation.contextControlCode, ActRelationship.contextControlCode, ActRelationship.contextConductionInd).",
+    "oids" : ["2.16.840.1.113883.5.1057"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAContextControl.html" : "CDAContextControl"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityClass",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EntityClass",
+    "title" : "EntityClass",
+    "description" : "Classifies the Entity class and all of its subclasses. The terminology is hierarchical. At the top is this HL7-defined domain of high-level categories (such as represented by the Entity subclasses). Each of these terms must be harmonized and is specializable. The value sets beneath are drawn from multiple, frequently external, domains that reflect much more fine-grained typing.",
+    "oids" : ["2.16.840.1.113883.5.41"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassOrganization.html" : "EntityClassOrganization",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassDevice.html" : "EntityClassDevice"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "EntityCode",
+    "title" : "EntityCode",
+    "description" : "*OpenIssue:* Missing description.",
+    "oids" : ["2.16.840.1.113883.5.1060"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAEntityCode.html" : "CDAEntityCode"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityDeterminer",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EntityDeterminer",
+    "title" : "EntityDeterminer",
+    "description" : "EntityDeterminer in natural language grammar is the class of words that comprises articles, demonstrative pronouns, and quantifiers. In the RIM, determiner is a structural code in the Entity class to distinguish whether any given Entity object stands for some, any one, or a specific thing.",
+    "oids" : ["2.16.840.1.113883.5.30"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityDeterminer.html" : "EntityDeterminer"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-IntegrityCheckAlgorithm",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "IntegrityCheckAlgorithm",
+    "title" : "IntegrityCheckAlgorithm",
+    "description" : "**** MISSING DESCRIPTION ****",
+    "oids" : ["2.16.840.1.113883.5.1010"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/5.2.0/ValueSet-v3-IntegrityCheckAlgorithm.html" : "IntegrityCheckAlgorithm"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ManufacturerModelNameExample",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ManufacturerModelNameExample",
+    "title" : "ManufacturerModelNameExample",
+    "description" : "This code system serves to capture the ManufacturerModelName concept domain used to convey a coded name for a device.",
+    "oids" : ["2.16.840.1.113883.5.156"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ManufacturerModelNameExample.html" : "Manufacturer Model Name Example"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
+    "oids" : ["2.16.840.1.113883.5.1008"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDANullFlavor.html" : "CDANullFlavor"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+    "version" : "7.0.0",
+    "status" : "active",
+    "name" : "ParticipationType",
+    "title" : "ParticipationType",
+    "description" : "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.",
+    "oids" : ["2.16.840.1.113883.5.90"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAParticipationType.html" : "CDAParticipationType",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ParticipationTargetDirect.html" : "ParticipationTargetDirect",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xServiceEventPerformer.html" : "x_ServiceEventPerformer",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ParticipationPhysicalPerformer.html" : "ParticipationPhysicalPerformer"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+    "version" : "6.0.0",
+    "status" : "active",
+    "name" : "RoleClass",
+    "title" : "RoleClass",
+    "description" : "Codes for the Role class hierarchy. The values in this hierarchy, represent a Role which is an association or relationship between two entities - the entity that plays the role and the entity that scopes the role. Roles names are derived from the name of the playing entity in that role.\r\n\r\nThe role hierarchy stems from three core concepts, or abstract domains:\r\n\r\n *  **RoleClassOntological** is an abstract domain that collects roles in which the playing entity is defined or specified by the scoping entity.\r\n *  **RoleClassPartitive** collects roles in which the playing entity is in some sense a \"part\" of the scoping entity.\r\n *  **RoleClassAssociative** collects all of the remaining forms of association between the playing entity and the scoping entity. This set of roles is further partitioned between:\r\n    \r\n     *  **RoleClassPassive** which are roles in which the playing entity is used, known, treated, handled, built, or destroyed, etc. under the auspices of the scoping entity. The playing entity is passive in these roles in that the role exists without an agreement from the playing entity.\r\n     *  **RoleClassMutualRelationship** which are relationships based on mutual behavior of the two entities. The basis of these relationship may be formal agreements or they may be *de facto* behavior. Thus, this sub-domain is further divided into:\r\n        \r\n         *  **RoleClassRelationshipFormal** in which the relationship is formally defined, frequently by a contract or agreement.\r\n         *  **Personal relationship** which inks two people in a personal relationship.\r\n\r\nThe hierarchy discussed above is represented In the current vocabulary tables as a set of abstract domains, with the exception of the \"Personal relationship\" which is a leaf concept.\r\n\r\n*OpenIssue:* Description copied from Concept Domain of same name. Must be verified.",
+    "oids" : ["2.16.840.1.113883.5.110"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-RoleClassAssignedEntity.html" : "RoleClassAssignedEntity",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDARoleClassRoot.html" : "CDARoleClassRoot",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-RoleClassRelationshipFormal.html" : "RoleClassRelationshipFormal"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDARoleCode.html" : "CDARoleCode"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RouteOfAdministration",
+    "title" : "RouteOfAdministration",
+    "description" : "The path the administered medication takes to get into the body or into contact with the body.",
+    "oids" : ["2.16.840.1.113883.5.112"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-RouteOfAdministration.html" : "RouteOfAdministration"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-SetOperator",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SetOperator",
+    "title" : "SetOperator",
+    "description" : "**** MISSING DESCRIPTION ****",
+    "oids" : ["2.16.840.1.113883.5.1069"],
+    "uses" : {
+    },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDASetOperator.html" : "CDASetOperator"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-SoftwareNameExample",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "SoftwareNameExample",
+    "title" : "SoftwareNameExample",
+    "description" : "This code system serves to capture the SoftwareName concept domain used to convey a coded name for the software used to author content.",
+    "oids" : ["2.16.840.1.113883.5.157"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-SoftwareNameExample.html" : "Software Name Example"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "MediaType",
+    "title" : "Media Type",
+    "description" : "An HL7 developed code system based on the Internet Assigned Numbers Authority (IANA) Media Types registry. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 \\[http://www.ietf.org/rfc/rfc2045.txt\\] and 2046 \\[http://www.ietf.org/rfc/rfc2046.txt\\]. RFC 2046 defines the media type to consist of two parts:\r\n\r\n1.  top level media type, and\r\n2.  media subtype\r\n\r\nHowever, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash \"/\" followed by media subtype. Currently defined media types are registered in a database \\[http://www.iana.org/assignments/media-types/index.html\\] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.",
+    "oids" : ["2.16.840.1.113883.5.79"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-MediaType.html" : "MediaType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "OrderableDrugForm",
+    "title" : "Orderable Drug Form",
+    "description" : "*OpenIssue:* Missing description.",
+    "oids" : ["2.16.840.1.113883.5.85"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-AdministrableDrugForm.html" : "AdministrableDrugForm"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+    "version" : "20240329120000",
+    "status" : "active",
+    "name" : "TRE_A00_ProducteurDocNonPS",
+    "title" : null,
+    "description" : "Producteur de document non PS",
+    "oids" : ["1.2.250.1.213.1.1.4.6"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.html" : "JDV_J04_XdsPracticeSettingCode_CISIS",
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
+    "version" : "20240927120000",
+    "status" : "active",
+    "name" : "TRE_A01_CadreExercice",
+    "title" : null,
+    "description" : "Cadre d'exercice",
+    "oids" : ["1.2.250.1.213.1.1.4.9"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.html" : "JDV_J04_XdsPracticeSettingCode_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
+    "version" : "20260928120000",
+    "status" : "active",
+    "name" : "TRE_A02_ProfessionSavFaire_CISIS",
+    "title" : null,
+    "description" : "Profession et savoir-faire CI-SIS",
+    "oids" : ["1.2.250.1.213.1.1.4.5"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
+    "version" : "20250523120000",
+    "status" : "active",
+    "name" : "TRE_R258_RelationPriseCharge",
+    "title" : null,
+    "description" : "Relation dans la prise en charge du patient",
+    "oids" : ["1.2.250.1.213.1.1.4.2.280"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47_FunctionCode_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction",
+    "version" : "20231215120000",
+    "status" : "active",
+    "name" : "TRE_R259_HL7ParticipationFunction",
+    "title" : null,
+    "description" : "Rôles fonctionnels HL7",
+    "oids" : ["2.16.840.1.113883.5.88"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47_FunctionCode_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TRE_R85_RolePriseCharge",
+    "title" : null,
+    "description" : "Rôle dans la prise en charge des patients ou des usagers",
+    "oids" : ["1.2.250.1.213.1.6.1.107"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS",
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J47-FunctionCode-CISIS.html" : "JDV_J47_FunctionCode_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+    "version" : "20241213120000",
+    "status" : "active",
+    "name" : "TRE_R94_ProfessionSocial",
+    "title" : null,
+    "description" : "Profession du social",
+    "oids" : ["1.2.250.1.213.1.6.1.4"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS"
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+    "version" : "20241213120000",
+    "status" : "active",
+    "name" : "TRE_R95_UsagerTitre",
+    "title" : null,
+    "description" : "Usager de titre professionnel",
+    "oids" : ["1.2.250.1.213.1.6.1.109"],
+    "uses" : {
+    },
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS"
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+    "version" : "202609211638",
+    "status" : "active",
+    "name" : "TerminologieCISIS",
+    "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
+    "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
+    "oids" : ["1.2.250.1.213.1.1.4.322"],
+    "uses" : {
+    },
+    "ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.html" : "ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "oids" : ["2.16.840.1.113883.6.121"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+  }]
+}

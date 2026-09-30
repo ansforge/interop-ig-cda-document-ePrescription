@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis,202609211638,active,"1.2.250.1.213.1.1.4.322",TerminologieCISIS,TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies,"Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.","ValueSet/fr-valueset-ep-med-dm-sous-type-prescription"

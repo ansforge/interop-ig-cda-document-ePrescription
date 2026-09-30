@@ -1,0 +1,30 @@
+# ans.cda.fr.fr-eprescription#0.1.0: Volet e-Prescription de Produits de santé (CDA)(fr)
+
+## Pages
+
+* [Accueil](fr/index.md)
+* [Téléchargements et usages](fr/annexe-downloads.md)
+* [Sécurité](fr/annexe-securite.md)
+* [Informations sur la traduction](fr/translationinfo.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [Fonctionnel](fr/fonctionnel.md)
+* [Cas d'usage](fr/cas-usage.md)
+* [Autres Ressources](fr/autres_ressources.md)
+* [Historique des versions](fr/change-log.md)
+* [Exigences spécifiques](fr/exigences-specifiques.md)
+* [Implémentations](fr/implementations.md)
+* [CDA](fr/cda.md)
+
+## Resources
+
+### ValueSets
+
+* [ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM](fr/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.md)
+
+### Logical Profiles
+
+* [CDA - clinicalDocument eP-MED-DM](fr/StructureDefinition-fr-cda-clinical-document-ep-med-dm.md)
+
+### ImplementationGuides
+
+* [Volet e-Prescription de Produits de santé (CDA)](fr/ImplementationGuide-ans.cda.fr.fr-eprescription.md)

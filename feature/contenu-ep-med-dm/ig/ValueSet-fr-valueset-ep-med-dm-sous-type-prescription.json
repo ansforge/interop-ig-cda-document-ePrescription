@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fr-valueset-ep-med-dm-sous-type-prescription",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ValueSet fr-valueset-ep-med-dm-sous-type-prescription</b></p><a name=\"fr-valueset-ep-med-dm-sous-type-prescription\"> </a><a name=\"hcfr-valueset-ep-med-dm-sous-type-prescription\"> </a><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"La version est explicitement indiquée comme étant 202609211638\"> version &#x1F4CD;202609211638</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1096\">MED-1096</a></td><td style=\"color: #cccccc\">Prescription bizone</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1097\">MED-1097</a></td><td style=\"color: #cccccc\">Prescription médicaments d'exception</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1098\">MED-1098</a></td><td style=\"color: #cccccc\">Ordonnance sécurisée</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1132\">MED-1132</a></td><td style=\"color: #cccccc\">Prescription grand appareillage</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1094\">MED-1094</a></td><td style=\"color: #cccccc\">Exécution à domicile</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1095\">MED-1095</a></td><td style=\"color: #cccccc\">Exécution en urgence</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1159\">MED-1159</a></td><td style=\"color: #cccccc\">Affection militaire</td></tr></table></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fr-valueset-ep-med-dm-sous-type-prescription</b></p><a name=\"en-fr-valueset-ep-med-dm-sous-type-prescription\"> </a><a name=\"en-hcfr-valueset-ep-med-dm-sous-type-prescription\"> </a><ul><li>Include these codes as defined in <a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"Version is explicitly stated to be 202609211638\"> version &#x1F4CD;202609211638</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1096\">MED-1096</a></td><td style=\"color: #cccccc\">Prescription bizone</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1097\">MED-1097</a></td><td style=\"color: #cccccc\">Prescription médicaments d'exception</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1098\">MED-1098</a></td><td style=\"color: #cccccc\">Ordonnance sécurisée</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1132\">MED-1132</a></td><td style=\"color: #cccccc\">Prescription grand appareillage</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1094\">MED-1094</a></td><td style=\"color: #cccccc\">Exécution à domicile</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1095\">MED-1095</a></td><td style=\"color: #cccccc\">Exécution en urgence</td></tr><tr><td><a href=\"https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1159\">MED-1159</a></td><td style=\"color: #cccccc\">Affection militaire</td></tr></table></li></ul></div></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription",
+  "version" : "0.1.0",
+  "name" : "FRValueSetEPMEDDMSousTypePrescription",
+  "title" : "ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM",
+  "status" : "draft",
+  "date" : "2026-09-30T07:55:07+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Jeu de valeurs regroupant les sous-types de la ePrescription eP-MED-DM (documentationOf[n]/serviceEvent/code) : bizone, médicaments d'exception, ordonnance sécurisée, grand appareillage, exécution à domicile, exécution en urgence et affection militaire.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202609211638",
+      "concept" : [{
+        "code" : "MED-1096"
+      },
+      {
+        "code" : "MED-1097"
+      },
+      {
+        "code" : "MED-1098"
+      },
+      {
+        "code" : "MED-1132"
+      },
+      {
+        "code" : "MED-1094"
+      },
+      {
+        "code" : "MED-1095"
+      },
+      {
+        "code" : "MED-1159"
+      }]
+    }]
+  }
+}
