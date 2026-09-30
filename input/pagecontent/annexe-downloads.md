@@ -23,8 +23,12 @@ Ensemble des ressources téléchargeables :
 
 ### Usage
 
-Ce guide d'implémentation contient les profils qui définissent la structure des instances FHIR attendues.
+Ce guide d'implémentation définit la structure des documents CDA R2 niveau 3 eP-MED-DM attendus.
 
-Les serveurs ainsi que les clients qui envoient de la donnée aux serveurs devront s'assurer de la conformité des ressources envoyées par rapport aux profils indiqués dans le guide ainsi qu'à la spécification FHIR de base. Pour cela, il est possible d'utiliser le validateur officiel [FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator) qui est également accessible [en ligne](https://validator.fhir.org/).
+Les logiciels qui produisent une ePrescription au format CDA doivent s'assurer de la conformité des documents générés au modèle eP-MED-DM 2024.01. Pour cela, l'ANS met à disposition :
 
-Pour plus d'information sur la validation des instances de ressource contre un profil issu de cette spécification, consulter la documentation de l'opération [$validate](https://www.hl7.org/fhir/resource-operation-validate.html) et la [documentation de l'ANS](https://interop.esante.gouv.fr/ig/documentation/valider_res.html).
+* l'outil de vérification en local [TestContenuCDA](https://github.com/ansforge/TestContenuCDA-3-0), qui contrôle un document CDA par rapport au schéma XML CDA et aux schématrons du CI-SIS ;
+* le schématron de conformité au modèle eP-MED-DM 2024.01 : [CI-SIS_EP-MED-DM_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_EP-MED-DM_2024.01.sch) ;
+* des exemples de documents eP-MED-DM, présentés dans la page [CDA](cda.html).
+
+Les documents peuvent également être vérifiés en ligne sur l'[espace de tests du CI-SIS](https://interop.esante.gouv.fr/).
