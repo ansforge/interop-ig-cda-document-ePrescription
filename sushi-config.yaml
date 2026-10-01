@@ -42,9 +42,7 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 dependencies:
   hl7.cda.uv.core: 2.0.3-sd
   ans.fr.terminologies: latest
-  ans.cda.fr.document-core:
-    version: current
-    uri: https://ansforge.github.io/interop-IG-cda-document-core/main/ig/package.tgz
+  ans.cda.fr.document-core: current
 
 pages:
     index.md:
