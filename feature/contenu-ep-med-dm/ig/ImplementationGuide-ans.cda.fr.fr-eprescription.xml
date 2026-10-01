@@ -13,7 +13,7 @@
   <name value="CDAFREPrescription"/>
   <title value="Volet e-Prescription de Produits de santé (CDA)"/>
   <status value="draft"/>
-  <date value="2026-10-01T14:59:33+00:00"/>
+  <date value="2026-10-01T15:12:21+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -60,7 +60,7 @@
     <version value="1.14.0"/>
   </dependsOn>
   <dependsOn id="ans_cda_fr_document_core">
-    <uri value="https://ansforge.github.io/interop-IG-cda-document-core/main/ig/package.tgz"/>
+    <uri value="https://interop.esante.gouv.fr/ig/cda/document-core/ImplementationGuide/ans.cda.fr.document-core"/>
     <packageId value="ans.cda.fr.document-core"/>
     <version value="current"/>
   </dependsOn>
