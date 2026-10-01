@@ -7,7 +7,7 @@ window.artifactsTableData = {
       "clearAll":    "Clear all"
     },
     "groupDescriptions": {
-      "-str-logicalmodel": "<p>Ils définissent des modèles de données qui représentent le domaine couvert par ce guide d'implémentation en termes plus conviviaux que les ressources FHIR sous-jacentes.</p>\n"
+      "-str-logicalmodel": "<p>Ils définissent des modèles de données qui représentent le domaine couvert par ce guide d'implémentation.</p>\n"
       ,"-term-valueset": "<p>Ils définissent des ensembles de codes utilisés par les systèmes conformes au présent guide d'implémentation.</p>\n"
     },
     "rows": [

@@ -12,7 +12,7 @@ Les modèles CDA définis dans ce guide permettent de représenter une prescript
 
 Le document eP-MED-DM s'appuie sur :
 
-* les spécifications de l'en-tête et du corps des documents CDA du CI-SIS définies dans le guide [FR Document Core (CDA)](https://ansforge.github.io/interop-IG-cda-document-core/main/ig/fr/) ;
+* les spécifications de l'en-tête et du corps des documents CDA du CI-SIS définies dans le guide [FR Document Core (CDA)](https://interop.esante.gouv.fr/ig/cda/document-core/index.html) ;
 * le profil IHE Pharmacy **PRE** (Pharmacy Prescription) ;
 * le profil IHE **PCC** (Patient Care Coordination).
 
