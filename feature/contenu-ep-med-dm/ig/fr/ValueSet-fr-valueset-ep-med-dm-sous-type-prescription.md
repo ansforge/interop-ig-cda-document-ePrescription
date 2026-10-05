@@ -2,9 +2,6 @@
 
 ## ValueSet: ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM 
 
- 
-Jeu de valeurs regroupant les sous-types de la ePrescription eP-MED-DM (documentationOf[n]/serviceEvent/code) : bizone, médicaments d'exception, ordonnance sécurisée, grand appareillage, exécution à domicile, exécution en urgence et affection militaire. 
-
  **References** 
 
 * [CDA - clinicalDocument eP-MED-DM](StructureDefinition-fr-cda-clinical-document-ep-med-dm.md)
@@ -32,7 +29,7 @@ Jeu de valeurs regroupant les sous-types de la ePrescription eP-MED-DM (document
   "name" : "FRValueSetEPMEDDMSousTypePrescription",
   "title" : "ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM",
   "status" : "draft",
-  "date" : "2026-10-01T15:12:21+00:00",
+  "date" : "2026-10-05T08:28:02+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
