@@ -88,3 +88,23 @@ menu:
         "Standard CDA": new-tab https://hl7.org/cda/stds/online-navigation/index.html
         "Documentation des guides d'implémentation de l'ANS": new-tab https://interop.esante.gouv.fr/ig/documentation/index.html
         Téléchargements et usage: annexe-downloads.html
+
+resources:
+  Binary/ep-med-dm-poso-struct:
+    extension:
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format
+        valueCode: application/xml
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical
+        valueCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+    name: Exemple eP-MED-DM 2024.01 - posologie structurée
+    description: Prescription de médicaments avec posologie structurée (dont doses progressives) et prescription de dispositif médical.
+    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+  Binary/ep-med-dm-poso-non-struct:
+    extension:
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format
+        valueCode: application/xml
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical
+        valueCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+    name: Exemple eP-MED-DM 2024.01 - posologie non structurée
+    description: Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle.
+    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm

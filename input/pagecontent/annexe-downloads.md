@@ -1,8 +1,8 @@
 ### Téléchargement
 
-L'implementation guide contient un package [téléchargeable ici](package.tgz) permettant de valider les instances par rapport aux profils qu'il contient.
+L'implementation guide contient un package [téléchargeable ici](../package.tgz) permettant de valider les instances par rapport aux profils qu'il contient.
 
-Pour cela, il suffit de télécharger le [package.tgz](package.tgz) et l'importer dans un serveur, par exemple sur hapi en suivant ce [script python](https://github.com/nmdp-bioinformatics/igloader) open source.
+Pour cela, il suffit de télécharger le [package.tgz](../package.tgz) et l'importer dans un serveur, par exemple sur hapi en suivant ce [script python](https://github.com/nmdp-bioinformatics/igloader) open source.
 
 Ensemble des ressources téléchargeables :
 

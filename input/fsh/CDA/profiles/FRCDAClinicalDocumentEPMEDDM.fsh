@@ -119,8 +119,8 @@ and specificationsVoletEPMEDDM 1..1
 * component.structuredBody 1..1
 * component.structuredBody ^short = "Structure du document eP-MED-DM (corps structuré)."
 * component.structuredBody.component ^short = "Composants contenant les sections du document eP-MED-DM."
-* component.structuredBody.component ^slicing.discriminator[0].type = #value
-* component.structuredBody.component ^slicing.discriminator[0].path = "section.templateId/root"
+* component.structuredBody.component ^slicing.discriminator[0].type = #profile
+* component.structuredBody.component ^slicing.discriminator[0].path = "section"
 * component.structuredBody.component ^slicing.rules = #open
 * component.structuredBody.component ^slicing.ordered = false
 
