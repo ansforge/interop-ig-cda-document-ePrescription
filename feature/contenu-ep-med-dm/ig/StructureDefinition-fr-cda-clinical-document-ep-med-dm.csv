@@ -1106,7 +1106,7 @@ Précisée à la minute minimum avec précision du décalage par rapport au temp
 "ClinicalDocument.component.structuredBody.languageCode","ClinicalDocument.component.structuredBody.languageCode","","","",0,1,"","","","http://hl7.org/cda/stds/core/StructureDefinition/CS {[]} {[]}
 ","","","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/all-languages|5.0.0","",,,,"StructuredBody.languageCode",0,1,"",""
 "ClinicalDocument.component.structuredBody.component","ClinicalDocument.component.structuredBody.component","","","",1,*,"","","","http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot {[]} {[]}
-","Composants contenant les sections du document eP-MED-DM.","","","","","","","","","","",,,,,"","value:section.templateId/root}
+","Composants contenant les sections du document eP-MED-DM.","","","","","","","","","","",,,,,"","profile:section}
 ","",,"open","StructuredBody.component",1,*,"",""
 "ClinicalDocument.component.structuredBody.component.nullFlavor","ClinicalDocument.component.structuredBody.component.nullFlavor","","","Exceptional Value Detail",0,1,"","","","code {[CanonicalType[http://hl7.org/cda/stds/core/StructureDefinition/cs-simple|2.0.3-sd]]} {[]}
 ","","If a value is an exceptional value (NULL-value), this specifies in what way and why proper information is missing.","","","","","","","","","",,"required","","http://hl7.org/cda/stds/core/ValueSet/CDANullFlavor|2.0.3-sd","",,,,"ANY.nullFlavor",0,1,"",""

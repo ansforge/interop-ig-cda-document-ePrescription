@@ -13,7 +13,7 @@
   <name value="CDAFREPrescription"/>
   <title value="Volet e-Prescription de Produits de santé (CDA)"/>
   <status value="draft"/>
-  <date value="2026-10-05T08:28:02+00:00"/>
+  <date value="2026-10-05T11:52:45+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -83,6 +83,42 @@
       <name value="CDA - clinicalDocument eP-MED-DM"/>
       <description value="L'élément de l'en-tête CDA 'ClinicalDocument' est l’élément racine d’un document ePrescription de médicaments et/ou de dispositifs médicaux (eP-MED-DM_2024.01)."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format">
+        <valueCode value="application/xml"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical">
+        <valueCanonical value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Binary"/>
+      </extension>
+      <reference>
+        <reference value="Binary/ep-med-dm-poso-non-struct"/>
+      </reference>
+      <name value="Exemple eP-MED-DM 2024.01 - posologie non structurée"/>
+      <description value="Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle."/>
+      <isExample value="true"/>
+      <profile value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format">
+        <valueCode value="application/xml"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical">
+        <valueCanonical value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Binary"/>
+      </extension>
+      <reference>
+        <reference value="Binary/ep-med-dm-poso-struct"/>
+      </reference>
+      <name value="Exemple eP-MED-DM 2024.01 - posologie structurée"/>
+      <description value="Prescription de médicaments avec posologie structurée (dont doses progressives) et prescription de dispositif médical."/>
+      <isExample value="true"/>
+      <profile value="https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -19,7 +19,7 @@
   fhir:name [ fhir:v "CDAFREPrescription"] ; # 
   fhir:title [ fhir:v "Volet e-Prescription de Produits de santé (CDA)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-10-05T08:28:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-10-05T11:52:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -124,6 +124,70 @@
        fhir:name [ fhir:v "CDA - clinicalDocument eP-MED-DM" ] ;
        fhir:description [ fhir:v "L'élément de l'en-tête CDA 'ClinicalDocument' est l’élément racine d’un document ePrescription de médicaments et/ou de dispositifs médicaux (eP-MED-DM_2024.01)." ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "application/xml"
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"^^xsd:anyURI ;
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0>
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Binary"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/Binary/ep-med-dm-poso-non-struct> ;
+         fhir:reference [ fhir:v "Binary/ep-med-dm-poso-non-struct" ]
+       ] ;
+       fhir:name [ fhir:v "Exemple eP-MED-DM 2024.01 - posologie non structurée" ] ;
+       fhir:description [ fhir:v "Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle." ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "application/xml"
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"^^xsd:anyURI ;
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0>
+         ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Binary"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/Binary/ep-med-dm-poso-struct> ;
+         fhir:reference [ fhir:v "Binary/ep-med-dm-poso-struct" ]
+       ] ;
+       fhir:name [ fhir:v "Exemple eP-MED-DM 2024.01 - posologie structurée" ] ;
+       fhir:description [ fhir:v "Prescription de médicaments avec posologie structurée (dont doses progressives) et prescription de dispositif médical." ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

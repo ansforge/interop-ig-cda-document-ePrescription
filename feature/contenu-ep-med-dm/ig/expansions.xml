@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="42445873-a126-4281-8556-8c3eafe9c046"/>
+  <id value="0afe5a16-11e1-4754-9edd-6982d85696d9"/>
   <meta>
-    <lastUpdated value="2026-10-05T08:28:02.343+00:00"/>
+    <lastUpdated value="2026-10-05T11:52:45.520+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -187,7 +187,8 @@
         <name value="FRValueSetEPMEDDMSousTypePrescription"/>
         <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
         <status value="draft"/>
-        <date value="2026-10-05T08:28:02+00:00"/>
+        <experimental value="false"/>
+        <date value="2026-10-05T11:52:45+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -196,8 +197,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5fcca466-160a-4d20-a9b6-e92b0085dda7"/>
-          <timestamp value="2026-10-05T08:29:08+00:00"/>
+          <identifier value="urn:uuid:b20165c7-e250-45a0-87cf-a35671547289"/>
+          <timestamp value="2026-10-05T11:54:24+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -437,7 +438,8 @@
         <name value="FRValueSetEPMEDDMSousTypePrescription"/>
         <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
         <status value="draft"/>
-        <date value="2026-10-05T08:28:02+00:00"/>
+        <experimental value="false"/>
+        <date value="2026-10-05T11:52:45+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -446,8 +448,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c072bfe5-9725-499d-b0a8-f33d7e120567"/>
-          <timestamp value="2026-10-05T08:29:08+00:00"/>
+          <identifier value="urn:uuid:dc442097-b3cb-4967-b0a7-e41dcd1bce17"/>
+          <timestamp value="2026-10-05T11:54:24+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -687,7 +689,8 @@
         <name value="FRValueSetEPMEDDMSousTypePrescription"/>
         <title value="ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"/>
         <status value="draft"/>
-        <date value="2026-10-05T08:28:02+00:00"/>
+        <experimental value="false"/>
+        <date value="2026-10-05T11:52:45+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -696,8 +699,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4a88d48d-ecc7-494a-acff-8b9b5d4512e3"/>
-          <timestamp value="2026-10-05T08:29:08+00:00"/>
+          <identifier value="urn:uuid:2ec7e85b-e74a-4b3a-82d4-e359310c800c"/>
+          <timestamp value="2026-10-05T11:54:24+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>

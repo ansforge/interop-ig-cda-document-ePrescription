@@ -14,7 +14,7 @@
   "name" : "CDAFREPrescription",
   "title" : "Volet e-Prescription de Produits de santé (CDA)",
   "status" : "draft",
-  "date" : "2026-10-05T08:28:02+00:00",
+  "date" : "2026-10-05T11:52:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -98,6 +98,56 @@
       "name" : "CDA - clinicalDocument eP-MED-DM",
       "description" : "L'élément de l'en-tête CDA 'ClinicalDocument' est l’élément racine d’un document ePrescription de médicaments et/ou de dispositifs médicaux (eP-MED-DM_2024.01).",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format",
+        "valueCode" : "application/xml"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical",
+        "valueCanonical" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Binary"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Binary-ep-med-dm-poso-non-struct.html"
+      }],
+      "reference" : {
+        "reference" : "Binary/ep-med-dm-poso-non-struct"
+      },
+      "name" : "Exemple eP-MED-DM 2024.01 - posologie non structurée",
+      "description" : "Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle.",
+      "isExample" : true,
+      "profile" : ["https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format",
+        "valueCode" : "application/xml"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical",
+        "valueCanonical" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Binary"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Binary-ep-med-dm-poso-struct.html"
+      }],
+      "reference" : {
+        "reference" : "Binary/ep-med-dm-poso-struct"
+      },
+      "name" : "Exemple eP-MED-DM 2024.01 - posologie structurée",
+      "description" : "Prescription de médicaments avec posologie structurée (dont doses progressives) et prescription de dispositif médical.",
+      "isExample" : true,
+      "profile" : ["https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0"]
     },
     {
       "extension" : [{

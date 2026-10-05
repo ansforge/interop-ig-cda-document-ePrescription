@@ -28,3 +28,8 @@
 ### ImplementationGuides
 
 * [Volet e-Prescription de Produits de santé (CDA)](fr/ImplementationGuide-ans.cda.fr.fr-eprescription.md)
+
+### Examples
+
+* [ep-med-dm-poso-non-struct (Binary)](fr/Binary-ep-med-dm-poso-non-struct.md)
+* [ep-med-dm-poso-struct (Binary)](fr/Binary-ep-med-dm-poso-struct.md)
