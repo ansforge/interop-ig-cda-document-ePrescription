@@ -20,7 +20,7 @@
   fhir:title [ fhir:v "ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-10-05T11:52:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-10-06T07:36:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;

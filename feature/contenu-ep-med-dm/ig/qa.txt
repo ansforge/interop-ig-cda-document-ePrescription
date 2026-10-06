@@ -1,15 +1,15 @@
 CDAFREPrescription : Validation Results
 =========================================
 
-err = 29, warn = 205, info = 309
+err = 23, warn = 205, info = 309
 IG Publisher Version: 2.3.4
-Generated Mon Oct 05 11:55:17 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
+Generated Tue Oct 06 07:38:44 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
  Build Errors : 3 / 0 / 0
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription : 0 / 1 / 23
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm : 0 / 175 / 315
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription : 0 / 1 / 10
- /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/input/resources/Binary-ep-med-dm-poso-non-struct : 13 / 13 / 133
- /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/input/resources/Binary-ep-med-dm-poso-struct : 13 / 15 / 149
+ /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/input/resources/Binary-ep-med-dm-poso-non-struct : 10 / 13 / 133
+ /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/input/resources/Binary-ep-med-dm-poso-struct : 10 / 15 / 149
 </table>
 == n/a ==
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is version 5.0.0, while the IG 'ans.fr.terminologies' is from version 4.0.1
@@ -237,9 +237,6 @@ ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.informant[0].relatedEn
 WARNING: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.informant[1].relatedEntity.code: The OID '2.16.840.1.113883.5.111' matches multiple resources (http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0(active), http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0(active), http://terminology.hl7.org/CodeSystem/v3-RoleCode|2.2.0(active), https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode|20241213120000(active)); http://terminology.hl7.org/CodeSystem/v3-RoleCode was chosen as the most appropriate
 ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.informant[1].relatedEntity.code.coding[0].display: Wrong Display Name 'Soeur' for http://terminology.hl7.org/CodeSystem/v3-RoleCode#SIS. Valid display is 'Sœur' (fr-FR) (for the language(s) 'fr-FR')
 ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.informant[1].relatedEntity.code: None of the codings provided are in the value set 'JDV_J11_RelationPatient_CISIS' (https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS|20200424120000), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleCode#SIS)
-ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.participant[0].functionCode.code: Value is 'CORRE' but is fixed to '353' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.code
-ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.participant[0].functionCode.codeSystem: Value is '1.2.250.1.213.1.1.4.2.280' but is fixed to '1.2.250.1.213.1.6.1.107' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.codeSystem
-ERROR: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.participant[0].functionCode.displayName: Value is 'Correspondant' but is fixed to 'Membre de l'équipe de soins' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.displayName
 INFORMATION: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.documentationOf[1].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.documentationOf[2].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Binary/ep-med-dm-poso-non-struct: ClinicalDocument.documentationOf[3].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
@@ -396,9 +393,6 @@ ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.informant[0].relatedEntity
 WARNING: Binary/ep-med-dm-poso-struct: ClinicalDocument.informant[1].relatedEntity.code: The OID '2.16.840.1.113883.5.111' matches multiple resources (http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0(active), http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0(active), http://terminology.hl7.org/CodeSystem/v3-RoleCode|2.2.0(active), https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode|20241213120000(active)); http://terminology.hl7.org/CodeSystem/v3-RoleCode was chosen as the most appropriate
 ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.informant[1].relatedEntity.code.coding[0].display: Wrong Display Name 'Soeur' for http://terminology.hl7.org/CodeSystem/v3-RoleCode#SIS. Valid display is 'Sœur' (fr-FR) (for the language(s) 'fr-FR')
 ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.informant[1].relatedEntity.code: None of the codings provided are in the value set 'JDV_J11_RelationPatient_CISIS' (https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS|20200424120000), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-RoleCode#SIS)
-ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.participant[0].functionCode.code: Value is 'CORRE' but is fixed to '353' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.code
-ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.participant[0].functionCode.codeSystem: Value is '1.2.250.1.213.1.1.4.2.280' but is fixed to '1.2.250.1.213.1.6.1.107' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.codeSystem
-ERROR: Binary/ep-med-dm-poso-struct: ClinicalDocument.participant[0].functionCode.displayName: Value is 'Correspondant' but is fixed to 'Membre de l'équipe de soins' in the profile https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm|0.1.0#ClinicalDocument.participant:prescripteurRemplace.functionCode.displayName
 INFORMATION: Binary/ep-med-dm-poso-struct: ClinicalDocument.documentationOf[1].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Binary/ep-med-dm-poso-struct: ClinicalDocument.documentationOf[2].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638
 INFORMATION: Binary/ep-med-dm-poso-struct: ClinicalDocument.documentationOf[3].serviceEvent.code: Reference to experimental CodeSystem https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis|202609211638

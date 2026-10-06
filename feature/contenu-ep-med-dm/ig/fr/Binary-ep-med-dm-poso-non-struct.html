@@ -515,8 +515,8 @@
   &lt;/<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-ClinicalDocument.html#ClinicalDocument.legalAuthenticator">legalAuthenticator</a>&gt;
   &lt;!-- Participant : PS remplacé (obligatoire si prescription faite par un PS remplaçant) --&gt;
   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-ClinicalDocument.html#ClinicalDocument.participant">participant</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">typeCode</a>=&quot;REF&quot;&gt;
-    &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Participant1.html#Participant1.functionCode">functionCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;Correspondant&quot;
-                  <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystem</a>=&quot;1.2.250.1.213.1.1.4.2.280&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a>=&quot;CORRE&quot;/&gt;
+    &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Participant1.html#Participant1.functionCode">functionCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;Membre de l'équipe de soins&quot;
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystem</a>=&quot;1.2.250.1.213.1.6.1.107&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a>=&quot;353&quot;/&gt;
     &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Participant1.html#Participant1.time">time</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">nullFlavor</a>=&quot;UNK&quot;/&gt;
     &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Participant1.html#Participant1.associatedEntity">associatedEntity</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">classCode</a>=&quot;PROV&quot;&gt;
       &lt;!-- [1..1] PS identifié par son N°RPPS --&gt;
@@ -1104,7 +1104,7 @@
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-InfrastructureRoot.html#Observation.templateId">templateId</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;1.2.250.1.213.1.1.3.48.34&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;40C12236-3721-11EC-8D3D-0242AC130035&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">code</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">xsi:type</a>=&quot;CD&quot;
-                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prevention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prévention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystem</a>=&quot;1.2.250.1.213.1.1.4.322&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a>=&quot;GEN-295&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.text">text</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">xsi:type</a>=&quot;ED&quot;&gt;
                     &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-ED.html#ED.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#url">value</a>=&quot;#med-001-prev&quot;/&gt;
@@ -1348,7 +1348,7 @@
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-InfrastructureRoot.html#Observation.templateId">templateId</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;1.2.250.1.213.1.1.3.48.34&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;40C12236-3721-11EC-8D3D-0242AC130035&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">code</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">xsi:type</a>=&quot;CD&quot;
-                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prevention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prévention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystem</a>=&quot;1.2.250.1.213.1.1.4.322&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a>=&quot;GEN-295&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.text">text</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">xsi:type</a>=&quot;ED&quot;&gt;
                     &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-ED.html#ED.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#url">value</a>=&quot;#med-002-prev&quot;/&gt;
@@ -1561,7 +1561,7 @@
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-InfrastructureRoot.html#Observation.templateId">templateId</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;1.2.250.1.213.1.1.3.48.34&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">root</a>=&quot;40C12236-3721-11EC-8D3D-0242AC130035&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">code</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.id">xsi:type</a>=&quot;CD&quot;
-                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prevention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
+                        <a href="http://hl7.org/fhir/R5/datatypes.html#string">displayName</a>=&quot;En rapport avec la prévention&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystemName</a>=&quot;TerminologieCISIS&quot;
                         <a href="http://hl7.org/fhir/R5/datatypes.html#string">codeSystem</a>=&quot;1.2.250.1.213.1.1.4.322&quot; <a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a>=&quot;GEN-295&quot;/&gt;
                   &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.text">text</a> <a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-Observation.html#Observation.code">xsi:type</a>=&quot;ED&quot;&gt;
                     &lt;<a href="http://hl7.org/cda/stds/core/2.0.3-sd/StructureDefinition-ED.html#ED.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#url">value</a>=&quot;#DM-001-prev&quot;/&gt;
@@ -1895,8 +1895,8 @@
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.cda.fr.fr-eprescription#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
           Date de génération : 
-  <span title="2026-10-05 11:52:00 +0000">
-    2026-10-05
+  <span title="2026-10-06 07:36:00 +0000">
+    2026-10-06
   </span>
 
           <br/>

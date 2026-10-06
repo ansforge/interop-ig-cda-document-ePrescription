@@ -1,11 +1,11 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription.json	10072	-	0	0	0	0	0	0	7	45	0	0	0	0	0	0	0	0	0	0	10	63	86	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm.json	34110	27	0	250	2	0	0	0	0	220	0	0	3	0	0	0	0	9	0	0	4	1488	7237	0	0	0	46	2	6
-fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.json	1228	3	0	0	0	0	0	0	0	135	0	0	0	0	0	0	0	0	0	0	6	10	126	0	0	0	1	0	0
-/input/resources/Binary-ep-med-dm-poso-non-struct.xml	210166	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	178	107	0	0	0	0	0	0
-/input/resources/Binary-ep-med-dm-poso-struct.xml	224557	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	167	108	0	0	0	0	0	0
-/fsh-generated/includes/fsh-link-references.md	373	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/fsh-generated/includes/menu.xml	3293	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription.json	10072	-	0	0	0	0	0	0	7	47	0	0	0	0	0	0	0	0	0	0	9	176	106	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm.json	34110	32	0	251	1	0	0	0	0	235	0	0	3	0	0	0	0	12	0	0	2	2329	7221	0	0	0	60	1	7
+fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.json	1228	3	0	0	1	0	0	0	0	144	0	0	0	0	0	0	0	0	0	0	5	16	136	0	0	0	1	0	0
+/input/resources/Binary-ep-med-dm-poso-non-struct.xml	210180	-	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	5	299	74	0	0	0	0	0	0
+/input/resources/Binary-ep-med-dm-poso-struct.xml	224571	-	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	305	69	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	373	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	3293	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/data/features.yml	184	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/change-log.md	330	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/annexe-downloads.md	1766	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -17,12 +17,12 @@ fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.js
 /input/pagecontent/annexe-securite.md	900	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/cas-usage.md	4123	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/pagecontent/cda.md	4007	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/implementations.md	20	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/implementations.md	20	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/anImage.png	36288	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/ep-med-dm-processus.png	283687	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/anImage.png	36288	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/ep-med-dm-processus.png	283687	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images/ci-sis-logo.png	61365	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /temp/pages/_includes/artifacts.xml	216	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
 /temp/pages/_includes/fragment-artifacts-table.html	3443	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
