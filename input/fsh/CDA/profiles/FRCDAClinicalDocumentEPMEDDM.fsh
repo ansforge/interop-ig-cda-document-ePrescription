@@ -109,7 +109,7 @@ and specificationsVoletEPMEDDM 1..1
 * documentationOf[sousTypePrescription].serviceEvent.code from FRValueSetEPMEDDMSousTypePrescription (required)
 * documentationOf[sousTypePrescription].serviceEvent.code.codeSystem = "1.2.250.1.213.1.1.4.322"
 * documentationOf[sousTypePrescription].serviceEvent.code.codeSystemName = "TerminologieCISIS"
-* documentationOf[sousTypePrescription].serviceEvent.code ^short = "Sous-type de la e-prescription : MED-1096 (Prescription bizone), MED-1097 (Prescription médicaments d'exception), MED-1098 (Ordonnance sécurisée), MED-1132 (Prescription grand appareillage), MED-1094 (Exécution à domicile), MED-1095 (Prescription en urgence), MED-1159 (Affection militaire)."
+* documentationOf[sousTypePrescription].serviceEvent.code ^short = "Sous-type de la e-prescription : MED-1096 (Prescription bizone), MED-1097 (Prescription médicaments d'exception), MED-1098 (Ordonnance sécurisée), MED-1132 (Prescription grand appareillage), MED-1094 (Exécution à domicile), MED-1095 (Exécution en urgence), MED-1159 (Affection militaire)."
 
 // ------------------------------------------------------------------
 // Corps
