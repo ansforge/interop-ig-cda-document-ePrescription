@@ -54,7 +54,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-cda-clinical-d
   "name" : "FRCDAClinicalDocumentEPMEDDM",
   "title" : "CDA - clinicalDocument eP-MED-DM",
   "status" : "draft",
-  "date" : "2026-10-06T07:36:54+00:00",
+  "date" : "2026-10-13T12:52:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -433,7 +433,7 @@ Other representations of profile: [CSV](../StructureDefinition-fr-cda-clinical-d
     {
       "id" : "ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.code",
       "path" : "ClinicalDocument.documentationOf.serviceEvent.code",
-      "short" : "Sous-type de la e-prescription : MED-1096 (Prescription bizone), MED-1097 (Prescription médicaments d'exception), MED-1098 (Ordonnance sécurisée), MED-1132 (Prescription grand appareillage), MED-1094 (Exécution à domicile), MED-1095 (Prescription en urgence), MED-1159 (Affection militaire).",
+      "short" : "Sous-type de la e-prescription : MED-1096 (Prescription bizone), MED-1097 (Prescription médicaments d'exception), MED-1098 (Ordonnance sécurisée), MED-1132 (Prescription grand appareillage), MED-1094 (Exécution à domicile), MED-1095 (Exécution en urgence), MED-1159 (Affection militaire).",
       "min" : 1,
       "binding" : {
         "strength" : "required",
@@ -537,12 +537,6 @@ Other representations of profile: [CSV](../StructureDefinition-fr-cda-clinical-d
       "id" : "ClinicalDocument.component.structuredBody.component:sectionPrescriptionMedicaments.section.text",
       "path" : "ClinicalDocument.component.structuredBody.component.section.text",
       "short" : "Prescription sous forme textuelle (posologie, mode d'administration, préconditions à l'usage…). Pour les stupéfiants et spécialités apparentées (ordonnance sécurisée), la quantité prescrite, les unités thérapeutiques par prise, les doses ou concentrations de substances doivent être indiquées en toutes lettres (Art. R.5132-5 et 29 du CSP)."
-    },
-    {
-      "id" : "ClinicalDocument.component.structuredBody.component:sectionPrescriptionMedicaments.section.entry.substanceAdministration.entryRelationship:frEnRapportAvecALD",
-      "path" : "ClinicalDocument.component.structuredBody.component.section.entry.substanceAdministration.entryRelationship",
-      "sliceName" : "frEnRapportAvecALD",
-      "short" : "Contrainte spécifique eP-MED-DM : entrée FR-En-rapport-avec-ALD obligatoire."
     },
     {
       "id" : "ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux",

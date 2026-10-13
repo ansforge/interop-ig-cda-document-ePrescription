@@ -2,13 +2,16 @@
 
 ## Historique des versions
 
-### version xxx
+### Version 0.1.0 (ci-build)
 
-**Release xxx de l'Implementation Guide FHIR xxx.**
+**Version initiale du guide d'implémentation de la ePrescription de produits de santé (CDA).**
 
-URL : [https://interop.esante.gouv.fr/ig/fhir/xxx](https://interop.esante.gouv.fr/ig/fhir/xxx)
+URL canonique : [https://interop.esante.gouv.fr/ig/cda/fr-eprescription](https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
 
-[Modifications apportées dans cette release](https://github.com/ansforge/xxx/milestone/10?closed=1) :
+Contenu de cette version :
 
-* [narratif] modification xxx [numéro d'issue](https://github.com/ansforge/xxx/issues/numéro d'issue)
+* intégration du volet eP-MED-DM 2024.01 (ePrescription de médicaments et/ou de dispositifs médicaux) au format CDA R2 niveau 3.
+* exemples eP-MED-DM 2024.01 : posologie structurée et posologie non structurée.
+
+Dépôt : [ansforge/interop-ig-cda-document-ePrescription](https://github.com/ansforge/interop-ig-cda-document-ePrescription)
 
