@@ -150,9 +150,6 @@ and specificationsVoletEPMEDDM 1..1
 * component.structuredBody.component[sectionPrescriptionMedicaments].section.title ^short = "Fixé à \"Prescription de médicaments\"."
 * component.structuredBody.component[sectionPrescriptionMedicaments].section.title.xmlText = "Prescription de médicaments"
 * component.structuredBody.component[sectionPrescriptionMedicaments].section.text ^short = "Prescription sous forme textuelle (posologie, mode d'administration, préconditions à l'usage…). Pour les stupéfiants et spécialités apparentées (ordonnance sécurisée), la quantité prescrite, les unités thérapeutiques par prise, les doses ou concentrations de substances doivent être indiquées en toutes lettres (Art. R.5132-5 et 29 du CSP)."
-// Entrée FR-Traitement-prescrit : contraintes spécifiques eP-MED-DM
-* component.structuredBody.component[sectionPrescriptionMedicaments].section.entry.substanceAdministration.entryRelationship[frEnRapportAvecALD] 1..1
-* component.structuredBody.component[sectionPrescriptionMedicaments].section.entry.substanceAdministration.entryRelationship[frEnRapportAvecALD] ^short = "Contrainte spécifique eP-MED-DM : entrée FR-En-rapport-avec-ALD obligatoire."
 
 * component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section only FRCDASectionPrescriptionDispositifsMedicaux
 * component.structuredBody.component[sectionPrescriptionDispositifsMedicaux] ^short = "Prescription de dispositifs médicaux : créée uniquement si la prescription contient des dispositifs médicaux."
