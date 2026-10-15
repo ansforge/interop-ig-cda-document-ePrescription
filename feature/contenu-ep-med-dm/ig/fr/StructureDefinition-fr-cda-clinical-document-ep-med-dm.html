@@ -56,9 +56,14 @@
       <div class="container">  <!-- container -->
 
         <!-- Placeholder for child template header declarations -->
-<div id="family-nav">
-    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-  </div>
+<div id="family-nav" style="display: flex; flex-direction: column;">
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/>
+  </a>
+  <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/cda" style="scale: 0.5;">
+    <img height="50" style="display: block; width: 100%;" alt="Visit the CDA website" src="assets/images/cda-logo-www.png"/>
+  </a>
+</div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
     <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -345,7 +350,7 @@ CDA - clinicalDocument eP-MED-DM
           
 
             à date du 
-2026-10-13
+2026-10-15
 
           
         
@@ -1001,7 +1006,7 @@ Pour les documents des professionnels :
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html" title="http://hl7.org/cda/stds/core/StructureDefinition/Section">FRCDASectionDocumentPDFCopie(0.1.0)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // d25d3432-380a-4d4b-83dd-fcbf40b16744
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // e3902396-6c71-4f76-9132-3d32ae0a3caa
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-cda-clinical-document-ep-med-dmD'), 'binding', document.getElementById('cbfr-cda-clinical-document-ep-med-dmD-binding').checked, document.getElementById('ppfr-cda-clinical-document-ep-med-dmD'));
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -6238,7 +6243,7 @@ Précisée à la minute minimum avec précision du décalage par rapport au temp
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html" title="http://hl7.org/cda/stds/core/StructureDefinition/Section">FRCDASectionDocumentPDFCopie(0.1.0)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // d25d3432-380a-4d4b-83dd-fcbf40b16744
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // e3902396-6c71-4f76-9132-3d32ae0a3caa
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-cda-clinical-document-ep-med-dmS'), 'binding', document.getElementById('cbfr-cda-clinical-document-ep-med-dmS-binding').checked, document.getElementById('ppfr-cda-clinical-document-ep-med-dmS'));
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -10829,7 +10834,7 @@ Pour les documents des professionnels :
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html" title="http://hl7.org/cda/stds/core/StructureDefinition/Section">FRCDASectionDocumentPDFCopie(0.1.0)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // d25d3432-380a-4d4b-83dd-fcbf40b16744
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // e3902396-6c71-4f76-9132-3d32ae0a3caa
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-cda-clinical-document-ep-med-dmDA'), 'binding', document.getElementById('cbfr-cda-clinical-document-ep-med-dmDA-binding').checked, document.getElementById('ppfr-cda-clinical-document-ep-med-dmDA'));
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -16063,7 +16068,7 @@ Précisée à la minute minimum avec précision du décalage par rapport au temp
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html" title="http://hl7.org/cda/stds/core/StructureDefinition/Section">FRCDASectionDocumentPDFCopie(0.1.0)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // d25d3432-380a-4d4b-83dd-fcbf40b16744
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Légende pour ce format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation pour ce format</a></td></tr><script type="text/javascript">  // e3902396-6c71-4f76-9132-3d32ae0a3caa
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('fr-cda-clinical-document-ep-med-dmSA'), 'binding', document.getElementById('cbfr-cda-clinical-document-ep-med-dmSA-binding').checked, document.getElementById('ppfr-cda-clinical-document-ep-med-dmSA'));
 document.getElementById('cbfr-cda-clinical-document-ep-med-dmSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -20124,8 +20129,8 @@ Résumé
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.cda.fr.fr-eprescription#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
           Date de génération : 
-  <span title="2026-10-13 12:52:00 +0000">
-    2026-10-13
+  <span title="2026-10-15 09:13:00 +0000">
+    2026-10-15
   </span>
 
           <br/>

@@ -3,7 +3,7 @@ CDAFREPrescription : Validation Results
 
 err = 23, warn = 164, info = 308
 IG Publisher Version: 2.3.4 Out of date - current version is 3.0.0
-Generated Tue Oct 13 12:55:11 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
+Generated Thu Oct 15 09:15:53 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
  Build Errors : 3 / 2 / 0
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription : 0 / 1 / 23
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm : 0 / 134 / 314
@@ -15,8 +15,8 @@ Generated Tue Oct 13 12:55:11 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-epr
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is version 5.0.0, while the IG 'ans.fr.terminologies' is from version 4.0.1
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is for FHIR version 5.0.0, while the package 'hl7.fhir.uv.ips#1.1.0' is for FHIR version 4.0.1
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is for FHIR version 5.0.0, while the package 'ans.fr.terminologies#1.11.1' is for FHIR version 4.0.1
-WARNING: en/change-log.html#/html/body/div/div/div/div/div/p/a at Line 266, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
-WARNING: fr/change-log.html#/html/body/div/div/div/div/div/p/a at Line 259, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/change-log.html#/html/body/div/div/div/div/div/p/a at Line 271, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
+WARNING: fr/change-log.html#/html/body/div/div/div/div/div/p/a at Line 264, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
 == fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription.json ==
 INFORMATION: ImplementationGuide/ans.cda.fr.fr-eprescription: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ImplementationGuide/ans.cda.fr.fr-eprescription: ImplementationGuide.definition.parameter[18].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
