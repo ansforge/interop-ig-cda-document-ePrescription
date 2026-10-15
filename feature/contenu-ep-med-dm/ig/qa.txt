@@ -3,7 +3,7 @@ CDAFREPrescription : Validation Results
 
 err = 23, warn = 164, info = 308
 IG Publisher Version: 2.3.4 Out of date - current version is 3.0.0
-Generated Thu Oct 15 09:27:33 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
+Generated Thu Oct 15 14:08:13 UTC 2026. FHIR version 5.0.0 for ans.cda.fr.fr-eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/cda/fr-eprescription)
  Build Errors : 3 / 2 / 0
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription : 0 / 1 / 23
  /__w/interop-ig-cda-document-ePrescription/interop-ig-cda-document-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm : 0 / 134 / 314
