@@ -149,7 +149,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-cda-clinical
   "name" : "FRCDAClinicalDocumentEPMEDDM",
   "title" : "CDA - clinicalDocument eP-MED-DM",
   "status" : "draft",
-  "date" : "2026-10-15T09:13:30+00:00",
+  "date" : "2026-10-15T09:25:27+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

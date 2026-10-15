@@ -45,8 +45,8 @@
     "uses" : {
     },
     "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassRecordOrganizer.html" : "ActClassRecordOrganizer",
-    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActClass.html" : "CDAActClass",
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassSupply.html" : "ActClassSupply"
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActClassSupply.html" : "ActClassSupply",
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActClass.html" : "CDAActClass"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -95,9 +95,9 @@
     "oids" : ["2.16.840.1.113883.5.1002"],
     "uses" : {
     },
+    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActRelationshipType.html" : "CDAActRelationshipType",
     "http://terminology.hl7.org/7.4.0/ValueSet-v3-xActRelationshipEntry.html" : "x_ActRelationshipEntry",
     "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActRelationshipHasComponent.html" : "ActRelationshipHasComponent",
-    "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAActRelationshipType.html" : "CDAActRelationshipType",
     "http://terminology.hl7.org/7.4.0/ValueSet-v3-xActRelationshipEntryRelationship.html" : "x_ActRelationshipEntryRelationship"
   },
   {
@@ -110,8 +110,8 @@
     "oids" : ["2.16.840.1.113883.5.14"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActStatus.html" : "ActStatus",
-    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-hl7-v3-ActStatus-cisis.html" : "ActStatus"
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-jdv-hl7-v3-ActStatus-cisis.html" : "ActStatus",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ActStatus.html" : "ActStatus"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-CompressionAlgorithm",
@@ -147,8 +147,8 @@
     "oids" : ["2.16.840.1.113883.5.41"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassOrganization.html" : "EntityClassOrganization",
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassDevice.html" : "EntityClassDevice"
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassDevice.html" : "EntityClassDevice",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-EntityClassOrganization.html" : "EntityClassOrganization"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
@@ -221,9 +221,9 @@
     "uses" : {
     },
     "http://hl7.org/cda/stds/core/2.0.3-sd/ValueSet-CDAParticipationType.html" : "CDAParticipationType",
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ParticipationPhysicalPerformer.html" : "ParticipationPhysicalPerformer",
     "http://terminology.hl7.org/7.4.0/ValueSet-v3-ParticipationTargetDirect.html" : "ParticipationTargetDirect",
-    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xServiceEventPerformer.html" : "x_ServiceEventPerformer"
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-xServiceEventPerformer.html" : "x_ServiceEventPerformer",
+    "http://terminology.hl7.org/7.4.0/ValueSet-v3-ParticipationPhysicalPerformer.html" : "ParticipationPhysicalPerformer"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
@@ -297,8 +297,8 @@
     "oids" : ["1.2.250.1.213.1.1.4.6"],
     "uses" : {
     },
-    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.html" : "JDV_J04_XdsPracticeSettingCode_CISIS",
-    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS"
+    "https://interop.esante.gouv.fr/terminologies/1.11.1/ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html" : "JDV_J01_XdsAuthorSpecialty_CISIS",
+    "https://interop.esante.gouv.fr/terminologies/1.14.0/ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.html" : "JDV_J04_XdsPracticeSettingCode_CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",

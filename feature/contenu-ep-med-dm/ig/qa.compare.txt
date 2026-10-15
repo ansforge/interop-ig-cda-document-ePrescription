@@ -15,8 +15,8 @@ Generated $--. FHIR version $-- for ans.cda.fr.fr-eprescription#$-- (canonical =
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is version 5.0.0, while the IG 'ans.fr.terminologies' is from version 4.0.1
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is for FHIR version 5.0.0, while the package 'hl7.fhir.uv.ips#1.1.0' is for FHIR version 4.0.1
 ERROR: ImplementationGuide/ans.cda.fr.fr-eprescription: This IG is for FHIR version 5.0.0, while the package 'ans.fr.terminologies#1.11.1' is for FHIR version 4.0.1
-WARNING: en/change-log.html#/html/body/div/div/div/div/div/p/a at Line 271, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
-WARNING: fr/change-log.html#/html/body/div/div/div/div/div/p/a at Line 264, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/change-log.html#/html/body/div/div/div/div/div/p/a at Line 266, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
+WARNING: fr/change-log.html#/html/body/div/div/div/div/div/p/a at Line 259, column 21: The link 'https://interop.esante.gouv.fr/ig/cda/fr-eprescription' for "https://interop.esante.gouv.fr/ig/cda/fr-eprescription" is a canonical link and is therefore unsafe with regard to versions
 == fsh-generated/resources/ImplementationGuide-ans.cda.fr.fr-eprescription.json ==
 INFORMATION: ImplementationGuide/ans.cda.fr.fr-eprescription: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ImplementationGuide/ans.cda.fr.fr-eprescription: ImplementationGuide.definition.parameter[18].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
