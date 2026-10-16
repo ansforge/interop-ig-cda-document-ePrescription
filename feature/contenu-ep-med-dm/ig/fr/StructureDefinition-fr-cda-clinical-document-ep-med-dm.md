@@ -4,7 +4,7 @@
 
 **Utilisations:**
 
-* Ce Profil de modèle logique n'est utilisé par aucun autre profil dans ce guide d'implémentation
+* Ce/t/te Profil de modèle logique n'est utilisé/e par aucun autre profil dans ce guide d'implémentation
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.cda.fr.fr-eprescription|current/StructureDefinition/fr-cda-clinical-document-ep-med-dm)
 
@@ -29,37 +29,6 @@ Cette structure est dérivée de [FRCDAClinicalDocument](https://build.fhir.org/
 
 Cette structure est dérivée de [FRCDAClinicalDocument](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-clinical-document.html) 
 
-** Résumé **
-
-Obligatoire : 25 éléments(7 éléments obligatoire(s) imbriqué(s))
- Interdit : 1 élément
-
-**Structures**
-
-Cette structure fait référence à ces autres structures:
-
-* [CDA - FR Code a barres (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-code-a-barres|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-code-a-barres.html)
-* [CDA - FR Prescription medicaments (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-prescription-medicaments|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-prescription-medicaments.html)
-* [CDA - FR Prescription dispositifs medicaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-prescription-dispositifs-medicaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-prescription-dispositifs-medicaux.html)
-* [CDA - FR Commentaire non code (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-commentaire-non-code|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-commentaire-non-code.html)
-* [CDA - FR Section Signes vitaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-section-signes-vitaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-section-signes-vitaux.html)
-* [CDA - FR Allergies et hypersensibilites (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-allergies-et-hypersensibilites|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-allergies-et-hypersensibilites.html)
-* [CDA - FR Problemes actifs (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-problemes-actifs|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-problemes-actifs.html)
-* [CDA - FR Antecedents medicaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-antecedents-medicaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-antecedents-medicaux.html)
-* [CDA - FR Vaccinations (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-vaccinations|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-vaccinations.html)
-* [CDA - FR Historique des grossesses (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-historique-des-grossesses|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-historique-des-grossesses.html)
-* [CDA - FR Documents ajoutes (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documents-ajoutes|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-documents-ajoutes.html)
-* [CDA - FR Document PDF copie (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-document-pdf-copie|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R5/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of ClinicalDocument.templateId
-* The element 1 is sliced based on the value of ClinicalDocument.participant
-* The element 1 is sliced based on the value of ClinicalDocument.documentationOf
-* The element 1 is sliced based on the value of ClinicalDocument.component.structuredBody.component
-
  **Vue différentielle** 
 
 Cette structure est dérivée de [FRCDAClinicalDocument](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-clinical-document.html) 
@@ -75,37 +44,6 @@ Cette structure est dérivée de [FRCDAClinicalDocument](https://build.fhir.org/
 #### Contraintes
 
 Cette structure est dérivée de [FRCDAClinicalDocument](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-clinical-document.html) 
-
-** Résumé **
-
-Obligatoire : 25 éléments(7 éléments obligatoire(s) imbriqué(s))
- Interdit : 1 élément
-
-**Structures**
-
-Cette structure fait référence à ces autres structures:
-
-* [CDA - FR Code a barres (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-code-a-barres|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-code-a-barres.html)
-* [CDA - FR Prescription medicaments (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-prescription-medicaments|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-prescription-medicaments.html)
-* [CDA - FR Prescription dispositifs medicaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-prescription-dispositifs-medicaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-prescription-dispositifs-medicaux.html)
-* [CDA - FR Commentaire non code (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-commentaire-non-code|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-commentaire-non-code.html)
-* [CDA - FR Section Signes vitaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-section-signes-vitaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-section-signes-vitaux.html)
-* [CDA - FR Allergies et hypersensibilites (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-allergies-et-hypersensibilites|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-allergies-et-hypersensibilites.html)
-* [CDA - FR Problemes actifs (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-problemes-actifs|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-problemes-actifs.html)
-* [CDA - FR Antecedents medicaux (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-antecedents-medicaux|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-antecedents-medicaux.html)
-* [CDA - FR Vaccinations (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-vaccinations|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-vaccinations.html)
-* [CDA - FR Historique des grossesses (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-historique-des-grossesses|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-historique-des-grossesses.html)
-* [CDA - FR Documents ajoutes (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documents-ajoutes|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-documents-ajoutes.html)
-* [CDA - FR Document PDF copie (https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-document-pdf-copie|0.1.0)](https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/StructureDefinition-fr-cda-document-pdf-copie.html)
-
-**Slices**
-
-Cette structure définit les [slices](http://hl7.org/fhir/R5/profiling.html#slices) suivantes:
-
-* The element 1 is sliced based on the value of ClinicalDocument.templateId
-* The element 1 is sliced based on the value of ClinicalDocument.participant
-* The element 1 is sliced based on the value of ClinicalDocument.documentationOf
-* The element 1 is sliced based on the value of ClinicalDocument.component.structuredBody.component
 
  
 
@@ -149,7 +87,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-cda-clinical
   "name" : "FRCDAClinicalDocumentEPMEDDM",
   "title" : "CDA - clinicalDocument eP-MED-DM",
   "status" : "draft",
-  "date" : "2026-10-15T14:06:00+00:00",
+  "date" : "2026-10-16T09:31:17+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -561,8 +499,8 @@ Autres représentations du profil : [CSV](../StructureDefinition-fr-cda-clinical
       "path" : "ClinicalDocument.component.structuredBody.component",
       "slicing" : {
         "discriminator" : [{
-          "type" : "profile",
-          "path" : "section"
+          "type" : "value",
+          "path" : "section.code.code"
         }],
         "ordered" : false,
         "rules" : "open"
