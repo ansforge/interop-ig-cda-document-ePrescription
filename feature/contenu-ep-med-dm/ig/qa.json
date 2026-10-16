@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.cda.fr.fr-eprescription",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 16 Oct, 2026 12:15:55 +0000",
-  "dateISO8601" : "2026-10-16T12:15:55+00:00",
+  "date" : "Fri, 16 Oct, 2026 12:31:27 +0000",
+  "dateISO8601" : "2026-10-16T12:31:27+00:00",
   "errs" : 60,
   "warnings" : 277,
   "hints" : 342,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "5.0.0",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 2888517984
+  "maxMemory" : 2375688192
 }
