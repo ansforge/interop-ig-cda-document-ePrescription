@@ -76,6 +76,7 @@ menu:
     Implémentations:
         CDA: cda.html
     Ressources de conformité: artifacts.html
+    Historique: change-log.html
     Autres ressources:
         "IG CDA": new-tab https://build.fhir.org/ig/ansforge/interop-IG-cda-document-core/fr/index.html
         "Espace de publication du CI-SIS" : new-tab https://esante.gouv.fr/offres-services/ci-sis/espace-publication
