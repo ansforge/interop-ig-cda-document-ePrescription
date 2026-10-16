@@ -24,4 +24,12 @@ IF EXIST "%input_cache_path%\%publisher_jar%" (
 	ECHO IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
 )
 
+REM Causes detaillees des slices non reconnues (blocs "Show Reasoning"), ajoutees dans la page QA
+IF EXIST "output\qa.html" (
+	node scripts\qa-reasoning.js output\qa.html --inject > output\qa-causes.txt
+	IF EXIST "output\qa.min.html" node scripts\qa-reasoning.js output\qa.min.html --inject > NUL
+	ECHO.
+	ECHO Causes des slices non reconnues ajoutees dans output\qa.html ^(et output\qa-causes.txt^)
+)
+
 PAUSE

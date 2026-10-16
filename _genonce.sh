@@ -28,3 +28,11 @@ else
 		echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
 	fi
 fi
+
+# Causes détaillées des slices non reconnues (blocs "Show Reasoning"), ajoutées dans la page QA
+if test -f output/qa.html; then
+	node scripts/qa-reasoning.js output/qa.html --inject > output/qa-causes.txt
+	if test -f output/qa.min.html; then node scripts/qa-reasoning.js output/qa.min.html --inject > /dev/null; fi
+	echo
+	echo "Causes des slices non reconnues ajoutées dans output/qa.html (et output/qa-causes.txt)"
+fi
