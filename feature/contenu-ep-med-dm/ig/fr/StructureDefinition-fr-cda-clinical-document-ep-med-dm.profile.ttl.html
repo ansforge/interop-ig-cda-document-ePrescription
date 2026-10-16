@@ -405,7 +405,7 @@ Profil TTL
   <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;FRCDAClinicalDocumentEPMEDDM&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;CDA - clinicalDocument eP-MED-DM&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2026-10-16T09:31:17+00:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2026-10-16T12:15:55+00:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/structuredefinition.html#XStructureDefinition.contact">fhir:contact</a> ( [
      <a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#XContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot; ] ;
@@ -2021,7 +2021,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -2293,7 +2300,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/PatientRole&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -2719,7 +2733,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Patient&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -2751,7 +2772,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Author&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3361,7 +3389,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3761,8 +3796,8 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding">fhir:binding</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.strength">fhir:strength</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;required&quot; ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.valueSet">fhir:valueSet</a> [
-           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&gt;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&quot;^^xsd:anyURI ;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&gt;
          ]
        ]
      ] [
@@ -3834,7 +3869,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Person&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3852,7 +3894,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3870,7 +3919,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Organization&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4483,7 +4539,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4502,7 +4565,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Informant&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4522,7 +4592,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Custodian&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4541,7 +4618,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4561,7 +4645,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4581,7 +4672,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Authenticator&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4607,7 +4705,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Participant1&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4627,7 +4732,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Participant1&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5343,7 +5455,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5363,7 +5482,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Participant1&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6067,7 +6193,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6086,7 +6219,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6112,7 +6252,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6132,7 +6279,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6375,7 +6529,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -7463,7 +7624,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Performer1&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -7735,7 +7903,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8135,8 +8310,8 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding">fhir:binding</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.strength">fhir:strength</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;required&quot; ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.valueSet">fhir:valueSet</a> [
-           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&gt;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&quot;^^xsd:anyURI ;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&gt;
          ]
        ]
      ] [
@@ -8451,7 +8626,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Person&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8469,7 +8651,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Organization&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8535,7 +8724,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8778,7 +8974,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -9748,7 +9951,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Performer1&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10020,7 +10230,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10420,8 +10637,8 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding">fhir:binding</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.strength">fhir:strength</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;required&quot; ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.valueSet">fhir:valueSet</a> [
-           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000&gt;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&quot;^^xsd:anyURI ;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000&gt;
          ]
        ]
      ] [
@@ -10736,7 +10953,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Person&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10754,7 +10978,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Organization&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10819,7 +11050,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10838,7 +11076,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Authorization&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -13140,7 +13385,7 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/types.html#Element#XElementDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;ClinicalDocument.component.structuredBody.component:sectionCodeABarres.section.entry.typeCode&quot; ] ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.path">fhir:path</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ClinicalDocument.component.structuredBody.component.section.entry.typeCode&quot; ] ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.representation">fhir:representation</a> ( [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;xmlAttr&quot; ] ) ;
-       <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.min">fhir:min</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#unsignedInt">fhir:v</a> &quot;1&quot;^^xsd:nonNegativeInteger ] ;
+       <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.min">fhir:min</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#unsignedInt">fhir:v</a> &quot;0&quot;^^xsd:nonNegativeInteger ] ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.max">fhir:max</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;1&quot; ] ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.base">fhir:base</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.base.path">fhir:path</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Entry.typeCode&quot; ] ;
@@ -13245,7 +13490,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -14924,7 +15176,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Author&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] ) ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.mustSupport">fhir:mustSupport</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">fhir:v</a> true ]
@@ -15309,7 +15568,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -16803,7 +17069,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Author&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] ) ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.mustSupport">fhir:mustSupport</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">fhir:v</a> true ]
@@ -17201,7 +17474,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Supply&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -18041,8 +18321,8 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding">fhir:binding</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.strength">fhir:strength</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;required&quot; ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.binding.valueSet">fhir:valueSet</a> [
-           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042&gt;
+           <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454&quot;^^xsd:anyURI ;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454&gt;
          ]
        ]
      ] [
@@ -18896,7 +19176,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] ) ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.mustSupport">fhir:mustSupport</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">fhir:v</a> true ]
@@ -18914,7 +19201,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Author&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] ) ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.mustSupport">fhir:mustSupport</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">fhir:v</a> true ]
@@ -20223,8 +20517,8 @@ Profil TTL
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.path">fhir:path</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;ClinicalDocument.component.structuredBody.component.section.entry.supply.entryRelationship&quot; ] ;
        <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing">fhir:slicing</a> [
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.discriminator">fhir:discriminator</a> ( [
-           <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.discriminator.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;value&quot; ] ;
-           <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.discriminator.path">fhir:path</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;$this&quot; ]
+           <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.discriminator.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;profile&quot; ] ;
+           <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.discriminator.path">fhir:path</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;observation&quot; ]
          ] ) ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.slicing.rules">fhir:rules</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;open&quot; ]
        ] ;
@@ -20605,7 +20899,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Observation&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -21052,7 +21353,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Observation&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -21499,7 +21807,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Observation&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -21946,7 +22261,14 @@ Profil TTL
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/cda/stds/core/StructureDefinition/Observation&quot;^^xsd:anyURI ] ;
          <a href="http://hl7.org/fhir/R5/elementdefinition.html#ElementDefinition#XElementDefinition.type.profile">fhir:profile</a> ( [
            <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0&quot;^^xsd:anyURI ;
-           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0&gt;
+           <a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0&gt; ;
+           <a href="http://hl7.org/fhir/R5/types.html#Element#Xcanonical.extension">fhir:extension</a> ( [
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints&quot;^^xsd:anyURI ] ;
+             <a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">fhir:value</a> [
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">a</a> fhir:code ;
+               <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;none&quot;
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -25607,7 +25929,7 @@ Profil TTL
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.cda.fr.fr-eprescription#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
           Date de génération : 
-  <span title="2026-10-16 09:31:00 +0000">
+  <span title="2026-10-16 12:15:00 +0000">
     2026-10-16
   </span>
 

@@ -35,7 +35,7 @@
   "name" : "FRCDAClinicalDocumentEPMEDDM",
   "title" : "CDA - clinicalDocument eP-MED-DM",
   "status" : "draft",
-  "date" : "2026-10-16T09:31:17+00:00",
+  "date" : "2026-10-16T12:15:55+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -1425,7 +1425,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -1654,7 +1660,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/PatientRole",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -2027,7 +2039,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Patient",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -2058,7 +2076,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Author",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -2582,7 +2606,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -2928,7 +2958,7 @@
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"
       }
     },
     {
@@ -2996,7 +3026,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Person",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3012,7 +3048,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3028,7 +3070,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3568,7 +3616,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3585,7 +3639,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Informant",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3603,7 +3663,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Custodian",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3620,7 +3686,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3638,7 +3710,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3656,7 +3734,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Authenticator",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3680,7 +3764,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Participant1",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -3698,7 +3788,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Participant1",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -4315,7 +4411,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -4333,7 +4435,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Participant1",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -4947,7 +5055,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -4964,7 +5078,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -4988,7 +5108,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -5006,7 +5132,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -5214,7 +5346,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -6154,7 +6292,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Performer1",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -6393,7 +6537,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -6739,7 +6889,7 @@
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"
       }
     },
     {
@@ -7020,7 +7170,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Person",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -7036,7 +7192,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -7094,7 +7256,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -7302,7 +7470,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -8147,7 +8321,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Performer1",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -8386,7 +8566,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -8732,7 +8918,7 @@
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"
+        "valueSet" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"
       }
     },
     {
@@ -9013,7 +9199,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Person",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -9029,7 +9221,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Organization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -9086,7 +9284,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -9103,7 +9307,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Authorization",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -11115,7 +11325,7 @@
       "id" : "ClinicalDocument.component.structuredBody.component:sectionCodeABarres.section.entry.typeCode",
       "path" : "ClinicalDocument.component.structuredBody.component.section.entry.typeCode",
       "representation" : ["xmlAttr"],
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Entry.typeCode",
@@ -11205,7 +11415,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -12676,7 +12892,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Author",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }],
       "mustSupport" : true
     },
@@ -13030,7 +13252,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -14331,7 +14559,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Author",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }],
       "mustSupport" : true
     },
@@ -14699,7 +14933,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Supply",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -15427,7 +15667,7 @@
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042"
+        "valueSet" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454"
       }
     },
     {
@@ -16200,7 +16440,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }],
       "mustSupport" : true
     },
@@ -16216,7 +16462,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Author",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }],
       "mustSupport" : true
     },
@@ -17365,8 +17617,8 @@
       "path" : "ClinicalDocument.component.structuredBody.component.section.entry.supply.entryRelationship",
       "slicing" : {
         "discriminator" : [{
-          "type" : "value",
-          "path" : "$this"
+          "type" : "profile",
+          "path" : "observation"
         }],
         "rules" : "open"
       },
@@ -17709,7 +17961,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Observation",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -18123,7 +18381,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Observation",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -18537,7 +18801,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Observation",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {
@@ -18951,7 +19221,13 @@
       },
       "type" : [{
         "code" : "http://hl7.org/cda/stds/core/StructureDefinition/Observation",
-        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0"]
+        "profile" : ["https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0"],
+        "_profile" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints",
+            "valueCode" : "none"
+          }]
+        }]
       }]
     },
     {

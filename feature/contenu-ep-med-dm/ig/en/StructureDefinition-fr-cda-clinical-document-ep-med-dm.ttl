@@ -56,7 +56,7 @@
   fhir:name [ fhir:v "FRCDAClinicalDocumentEPMEDDM"] ; # 
   fhir:title [ fhir:v "CDA - clinicalDocument eP-MED-DM"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-10-16T09:31:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-10-16T12:15:55+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -1672,7 +1672,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -1944,7 +1951,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/PatientRole"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -2370,7 +2384,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Patient"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -2402,7 +2423,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Author"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3012,7 +3040,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3412,8 +3447,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"^^xsd:anyURI ;
-           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"^^xsd:anyURI ;
+           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000>
          ]
        ]
      ] [
@@ -3485,7 +3520,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Person"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3503,7 +3545,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -3521,7 +3570,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Organization"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4134,7 +4190,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4153,7 +4216,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Informant"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4173,7 +4243,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Custodian"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4192,7 +4269,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4212,7 +4296,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4232,7 +4323,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Authenticator"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4258,7 +4356,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Participant1"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4278,7 +4383,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Participant1"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -4994,7 +5106,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5014,7 +5133,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Participant1"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5718,7 +5844,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5737,7 +5870,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5763,7 +5903,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -5783,7 +5930,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -6026,7 +6180,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -7114,7 +7275,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Performer1"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -7386,7 +7554,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -7786,8 +7961,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"^^xsd:anyURI ;
-           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"^^xsd:anyURI ;
+           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000>
          ]
        ]
      ] [
@@ -8102,7 +8277,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Person"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8120,7 +8302,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Organization"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8186,7 +8375,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -8429,7 +8625,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -9399,7 +9602,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Performer1"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -9671,7 +9881,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10071,8 +10288,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"^^xsd:anyURI ;
-           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000>
+           fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"^^xsd:anyURI ;
+           fhir:link <https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000>
          ]
        ]
      ] [
@@ -10387,7 +10604,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Person"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10405,7 +10629,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Organization"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10470,7 +10701,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -10489,7 +10727,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Authorization"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -12791,7 +13036,7 @@
        fhir:id [ fhir:v "ClinicalDocument.component.structuredBody.component:sectionCodeABarres.section.entry.typeCode" ] ;
        fhir:path [ fhir:v "ClinicalDocument.component.structuredBody.component.section.entry.typeCode" ] ;
        fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Entry.typeCode" ] ;
@@ -12896,7 +13141,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -14575,7 +14827,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Author"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v true ]
@@ -14960,7 +15219,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -16454,7 +16720,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Author"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v true ]
@@ -16852,7 +17125,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Supply"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -17692,8 +17972,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042"^^xsd:anyURI ;
-           fhir:link <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042>
+           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454"^^xsd:anyURI ;
+           fhir:link <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454>
          ]
        ]
      ] [
@@ -18547,7 +18827,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v true ]
@@ -18565,7 +18852,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Author"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v true ]
@@ -19874,8 +20168,8 @@
        fhir:path [ fhir:v "ClinicalDocument.component.structuredBody.component.section.entry.supply.entryRelationship" ] ;
        fhir:slicing [
          fhir:discriminator ( [
-           fhir:type [ fhir:v "value" ] ;
-           fhir:path [ fhir:v "$this" ]
+           fhir:type [ fhir:v "profile" ] ;
+           fhir:path [ fhir:v "observation" ]
          ] ) ;
          fhir:rules [ fhir:v "open" ]
        ] ;
@@ -20256,7 +20550,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Observation"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -20703,7 +21004,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Observation"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -21150,7 +21458,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Observation"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [
@@ -21597,7 +21912,14 @@
          fhir:code [ fhir:v "http://hl7.org/cda/stds/core/StructureDefinition/Observation"^^xsd:anyURI ] ;
          fhir:profile ( [
            fhir:v "https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0>
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0> ;
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:code ;
+               fhir:v "none"
+             ]
+           ] )
          ] )
        ] )
      ] [

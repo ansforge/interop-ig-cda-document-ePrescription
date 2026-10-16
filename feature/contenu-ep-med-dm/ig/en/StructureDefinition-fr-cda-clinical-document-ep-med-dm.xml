@@ -187,7 +187,7 @@ Pour les documents des professionnels :
   <name value="FRCDAClinicalDocumentEPMEDDM"/>
   <title value="CDA - clinicalDocument eP-MED-DM"/>
   <status value="draft"/>
-  <date value="2026-10-16T09:31:17+00:00"/>
+  <date value="2026-10-16T12:15:55+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -1498,7 +1498,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-record-target|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.recordTarget.nullFlavor">
@@ -1715,7 +1719,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/PatientRole"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient-role|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.recordTarget.patientRole.nullFlavor">
@@ -2066,7 +2074,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Patient"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-patient|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.recordTarget.patientRole.providerOrganization">
@@ -2095,7 +2107,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.author.nullFlavor">
@@ -2586,7 +2602,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-author|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.author.assignedAuthor.nullFlavor">
@@ -2912,7 +2932,7 @@ Pour les documents des professionnels :
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"/>
       </binding>
     </element>
     <element id="ClinicalDocument.author.assignedAuthor.sdtcSpecialty">
@@ -2974,7 +2994,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Person"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.author.assignedAuthor.assignedAuthoringDevice">
@@ -2989,7 +3013,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authoring-device|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.author.assignedAuthor.representedOrganization">
@@ -3004,7 +3032,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Organization"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.author.assignedAuthor.representedOrganization.nullFlavor">
@@ -3511,7 +3543,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/DataEnterer"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-data-enterer|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.informant">
@@ -3527,7 +3563,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Informant"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-informant|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.custodian">
@@ -3544,7 +3584,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Custodian"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-custodian|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.informationRecipient">
@@ -3560,7 +3604,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-information-recipient|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.legalAuthenticator">
@@ -3577,7 +3625,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-legal-authenticator|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.authenticator">
@@ -3594,7 +3646,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Authenticator"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authenticator|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.participant">
@@ -3617,7 +3673,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.participant:prescripteurRemplace">
@@ -3634,7 +3694,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.participant:prescripteurRemplace.nullFlavor">
@@ -4213,7 +4277,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.participant:executant">
@@ -4230,7 +4298,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-participant-entete|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.participant:executant.nullFlavor">
@@ -4806,7 +4878,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-associated-entity|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.inFulfillmentOf">
@@ -4822,7 +4898,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-inFulfillment-of|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf">
@@ -4845,7 +4925,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription">
@@ -4862,7 +4946,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.nullFlavor">
@@ -5059,7 +5147,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.nullFlavor">
@@ -5940,7 +6032,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Performer1"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.performer.nullFlavor">
@@ -6166,7 +6262,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.performer.assignedEntity.nullFlavor">
@@ -6492,7 +6592,7 @@ Pour les documents des professionnels :
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"/>
       </binding>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.performer.assignedEntity.code.nullFlavor">
@@ -6752,7 +6852,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Person"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.performer.assignedEntity.representedOrganization">
@@ -6767,7 +6871,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Organization"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:prescription.serviceEvent.performer.assignedEntity.sdtcPatient">
@@ -6819,7 +6927,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/DocumentationOf"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-documentation-of|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.nullFlavor">
@@ -7016,7 +7128,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ServiceEvent"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-service-event|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.nullFlavor">
@@ -7807,7 +7923,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Performer1"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-performer|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.performer.nullFlavor">
@@ -8033,7 +8153,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.performer.assignedEntity.nullFlavor">
@@ -8359,7 +8483,7 @@ Pour les documents des professionnels :
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260505120000"/>
+        <valueSet value="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS|20260928120000"/>
       </binding>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.performer.assignedEntity.code.nullFlavor">
@@ -8619,7 +8743,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Person"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-person|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.performer.assignedEntity.representedOrganization">
@@ -8634,7 +8762,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Organization"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-represented-organization|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf:sousTypePrescription.serviceEvent.performer.assignedEntity.sdtcPatient">
@@ -8685,7 +8817,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-related-document|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.authorization">
@@ -8701,7 +8837,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Authorization"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-authorization|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.componentOf">
@@ -10599,7 +10739,7 @@ Pour les documents des professionnels :
     <element id="ClinicalDocument.component.structuredBody.component:sectionCodeABarres.section.entry.typeCode">
       <path value="ClinicalDocument.component.structuredBody.component.section.entry.typeCode"/>
       <representation value="xmlAttr"/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Entry.typeCode"/>
@@ -10684,7 +10824,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-image-illustrative|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionCodeABarres.section.entry.organizer">
@@ -12070,7 +12214,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -12403,7 +12551,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-traitement-prescrit|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionMedicaments.section.entry.supply">
@@ -13629,7 +13781,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -13975,7 +14131,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Supply"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-dispositif-medical|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.nullFlavor">
@@ -14666,7 +14826,7 @@ Pour les documents des professionnels :
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260619134042"/>
+        <valueSet value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20260916095454"/>
       </binding>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.effectiveTime">
@@ -15392,7 +15552,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-assigned-entity|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -15407,7 +15571,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-author|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -16484,8 +16652,8 @@ Pour les documents des professionnels :
       <path value="ClinicalDocument.component.structuredBody.component.section.entry.supply.entryRelationship"/>
       <slicing>
         <discriminator>
-          <type value="value"/>
-          <path value="$this"/>
+          <type value="profile"/>
+          <path value="observation"/>
         </discriminator>
         <rules value="open"/>
       </slicing>
@@ -16809,7 +16977,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-ald|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.entryRelationship:frEnRapportAvecALD.observationMedia">
@@ -17198,7 +17370,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-accident-travail|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.entryRelationship:frEnRapportAvecAccidentTravail.observationMedia">
@@ -17587,7 +17763,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-en-rapport-avec-la-prevention|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.entryRelationship:frEnRapportAvecLaPrevention.observationMedia">
@@ -17976,7 +18156,11 @@ Pour les documents des professionnels :
       </base>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0"/>
+        <profile value="https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-non-remboursable|0.1.0">
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints">
+            <valueCode value="none"/>
+          </extension>
+        </profile>
       </type>
     </element>
     <element id="ClinicalDocument.component.structuredBody.component:sectionPrescriptionDispositifsMedicaux.section.entry.supply.entryRelationship:frNonRemboursable.observationMedia">
