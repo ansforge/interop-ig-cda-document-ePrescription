@@ -1,0 +1,35 @@
+# ans.cda.fr.fr-eprescription#0.1.0: Volet e-Prescription de Produits de santé (CDA)(fr)
+
+## Pages
+
+* [Accueil](fr/index.md)
+* [Exigences spécifiques](fr/exigences-specifiques.md)
+* [Sécurité](fr/annexe-securite.md)
+* [Téléchargements et usages](fr/annexe-downloads.md)
+* [Fonctionnel](fr/fonctionnel.md)
+* [Informations sur la traduction](fr/translationinfo.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [Historique des versions](fr/change-log.md)
+* [Implémentations](fr/implementations.md)
+* [CDA](fr/cda.md)
+* [Autres Ressources](fr/autres_ressources.md)
+* [Cas d'usage](fr/cas-usage.md)
+
+## Resources
+
+### ValueSets
+
+* [ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM](fr/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.md)
+
+### Logical Profiles
+
+* [CDA - clinicalDocument eP-MED-DM](fr/StructureDefinition-fr-cda-clinical-document-ep-med-dm.md)
+
+### ImplementationGuides
+
+* [Volet e-Prescription de Produits de santé (CDA)](fr/ImplementationGuide-ans.cda.fr.fr-eprescription.md)
+
+### Examples
+
+* [ep-med-dm-poso-non-struct (Binary)](fr/Binary-ep-med-dm-poso-non-struct.md)
+* [ep-med-dm-poso-struct (Binary)](fr/Binary-ep-med-dm-poso-struct.md)

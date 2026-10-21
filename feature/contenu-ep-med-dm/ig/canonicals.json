@@ -1,0 +1,21 @@
+[{
+  "id" : "ans.cda.fr.fr-eprescription",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ImplementationGuide/ans.cda.fr.fr-eprescription",
+  "version" : "0.1.0",
+  "name" : "CDAFREPrescription"
+},
+{
+  "id" : "fr-cda-clinical-document-ep-med-dm",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm",
+  "version" : "0.1.0",
+  "name" : "FRCDAClinicalDocumentEPMEDDM"
+},
+{
+  "id" : "fr-valueset-ep-med-dm-sous-type-prescription",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/cda/fr-eprescription/ValueSet/fr-valueset-ep-med-dm-sous-type-prescription",
+  "version" : "0.1.0",
+  "name" : "FRValueSetEPMEDDMSousTypePrescription"
+}]
