@@ -7,7 +7,7 @@ Implementation guide for the ePrescription of health products (medicines and/or 
 <div style="width: 65%">
     <blockquote class="stu-note">
     <p>
-    <b>Attention !</b> Cet Implementation Guide n'est pas en version courante. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/cda/fr-eprescription
+    <b>Attention !</b> Cet Implementation Guide n'est pas en version courante. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/cda/eprescription
     </p>
     </blockquote>
 </div>

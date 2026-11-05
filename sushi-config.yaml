@@ -1,7 +1,7 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.cda.fr.fr-eprescription
-canonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription # the last part of canonical and id must be the same
+id: ans.cda.fr.eprescription
+canonical: https://interop.esante.gouv.fr/ig/cda/eprescription # the last part of canonical and id must be the same
 name: CDAFREPrescription # Should be an acronym
 title: Volet e-Prescription de Produits de santé (CDA)
 description: Volet ePrescription - Spécifications CDA
@@ -96,16 +96,16 @@ resources:
       - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format
         valueCode: application/xml
       - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical
-        valueCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+        valueCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
     name: Exemple eP-MED-DM 2024.01 - posologie structurée
     description: Prescription de médicaments avec posologie structurée (dont doses progressives) et prescription de dispositif médical.
-    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
   Binary/ep-med-dm-poso-non-struct:
     extension:
       - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format
         valueCode: application/xml
       - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical
-        valueCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+        valueCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
     name: Exemple eP-MED-DM 2024.01 - posologie non structurée
     description: Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle.
-    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/fr-eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm

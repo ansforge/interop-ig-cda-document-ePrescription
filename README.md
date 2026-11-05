@@ -4,7 +4,7 @@
 
 Ce dépôt contient le guide d'implémentation (IG) **FR ePrescription (CDA)** : la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) au format CDA R2 niveau 3, correspondant au volet **eP-MED-DM 2024.01** du CI-SIS.
 
-* URL canonique : <https://interop.esante.gouv.fr/ig/cda/fr-eprescription> (accessible après la première release)
+* URL canonique : <https://interop.esante.gouv.fr/ig/cda/eprescription> (accessible après la première release)
 * Version de travail (branche `main`) : <https://ansforge.github.io/interop-ig-cda-document-ePrescription/main/ig>
 
 # Contexte

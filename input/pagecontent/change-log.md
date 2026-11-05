@@ -2,7 +2,7 @@
 
 **Version initiale du guide d'implémentation de la ePrescription de produits de santé (CDA).**
 
-URL canonique : <https://interop.esante.gouv.fr/ig/cda/fr-eprescription>
+URL canonique : <https://interop.esante.gouv.fr/ig/cda/eprescription>
 
 Contenu de cette version :
 
