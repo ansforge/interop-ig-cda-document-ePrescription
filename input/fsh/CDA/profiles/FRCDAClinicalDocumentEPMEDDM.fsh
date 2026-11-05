@@ -157,12 +157,12 @@ and specificationsVoletEPMEDDM 1..1
 * component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.title.xmlText = "Prescription de dispositifs médicaux"
 * component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.text ^short = "Prescription sous forme textuelle : liste des dispositifs médicaux prescrits."
 // Entrée FR-Dispositif-medical : contraintes spécifiques eP-MED-DM
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.repeatNumber 1..1
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.repeatNumber ^short = "Contrainte spécifique eP-MED-DM : nombre de renouvellements obligatoire. L'absence de renouvellement est indiquée par la valeur \"0\"."
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.entryRelationship[frEnRapportAvecALD] 1..1
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.entryRelationship[frEnRapportAvecAccidentTravail] 1..1
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.entryRelationship[frEnRapportAvecLaPrevention] 1..1
-* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry.supply.entryRelationship[frNonRemboursable] 1..1
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.repeatNumber 1..1
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.repeatNumber ^short = "Contrainte spécifique eP-MED-DM : nombre de renouvellements obligatoire. L'absence de renouvellement est indiquée par la valeur \"0\"."
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.entryRelationship[frEnRapportAvecALD] 1..1
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.entryRelationship[frEnRapportAvecAccidentTravail] 1..1
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.entryRelationship[frEnRapportAvecLaPrevention] 1..1
+* component.structuredBody.component[sectionPrescriptionDispositifsMedicaux].section.entry[frDispositifMedical].supply.entryRelationship[frNonRemboursable] 1..1
 
 * component.structuredBody.component[sectionCommentaireNonCode].section only FRCDASectionCommentaireNonCode
 * component.structuredBody.component[sectionCommentaireNonCode] ^short = "Commentaire du médecin sous forme textuelle."
