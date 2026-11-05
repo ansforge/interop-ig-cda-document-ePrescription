@@ -13,6 +13,18 @@ Implementation guide for the ePrescription of health products (medicines and/or 
 </div>
 {% endif %}
 
+{% if site.data.info.releaselabel == 'public-comment' %}
+<div style="width: 65%">
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b>
+  <br>
+ Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : https://interop.esante.gouv.fr/ig/cda/eprescription
+</p>
+</blockquote>
+</div>
+{% endif %}
+
 <div class="figure">
     <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
 </div>
