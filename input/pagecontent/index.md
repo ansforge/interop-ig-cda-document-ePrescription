@@ -30,7 +30,7 @@ Le Cadre d'interopérabilité des Systèmes d'Information de Santé (CI-SIS) fix
 
 #### Modèle métier
 
-Le modèle métier correspond à l'expression des besoins fournie par la Caisse nationale d'assurance maladie (Cnam), porteur du projet, et enrichie par l'ANS au regard du profil international IHE PRE. Il est élaboré à partir de :
+Le modèle métier correspond à l'expression des besoins fournie par la Caisse nationale d'assurance maladie (CNAM), porteur du projet, et enrichie par l'ANS au regard du profil international IHE PRE. Il est élaboré à partir de :
 
 - la [Doctrine technique du numérique en santé](https://esante.gouv.fr/sites/default/files/media_entity/documents/doctrine_3_3_e-prescription.pdf), qui décrit la solution de ePrescription élaborée par la Cnam ;
 - les spécifications de la ePrescription unifiée (EPU), publiées dans l'espace industriel du GIE SESAM-Vitale ;
