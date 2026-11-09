@@ -1,0 +1,498 @@
+{
+  "date" : "Mon, 09 Nov, 2026 08:30:22 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-ans.cda.fr.eprescription.json",
+    "size" : 9822,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 26,
+      "length" : 328
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 28,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 81
+    },
+    {
+      "activity" : "validate",
+      "start" : 33,
+      "length" : 12363
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 45,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 45,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 54,
+      "length" : 12
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 108
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 108
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm.json",
+    "size" : 34341,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 17
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 29
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 26,
+      "length" : 385
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 28,
+      "length" : 3
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 28,
+      "length" : 491
+    },
+    {
+      "activity" : "validate",
+      "start" : 30,
+      "length" : 3110
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 45,
+      "length" : 3
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 45,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 45,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 54,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 54,
+      "length" : 2227
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 8272
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 4005
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 98
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 102,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 102,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.json",
+    "size" : 1225,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 26,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 26,
+      "length" : 213
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 28,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 273
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 955
+    },
+    {
+      "activity" : "validate",
+      "start" : 45,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 54,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 199
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/resources/Binary-ep-med-dm-poso-non-struct.xml",
+    "size" : 210170,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 45,
+      "length" : 5593
+    },
+    {
+      "activity" : "translate",
+      "start" : 54,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 56,
+      "length" : 379
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 122
+    }]
+  },
+  {
+    "name" : "/input/resources/Binary-ep-med-dm-poso-struct.xml",
+    "size" : 224561,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 51,
+      "length" : 2910
+    },
+    {
+      "activity" : "translate",
+      "start" : 54,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 57,
+      "length" : 405
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 116
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 373,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 3438,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 184,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/autres_ressources.md",
+    "size" : 171,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/annexe-securite.md",
+    "size" : 900,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/fonctionnel.md",
+    "size" : 338,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 4963,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cas-usage.md",
+    "size" : 4123,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 59,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/implementations.md",
+    "size" : 20,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/change-log.md",
+    "size" : 569,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cda.md",
+    "size" : 4007,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/annexe-downloads.md",
+    "size" : 1766,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/ci-sis-logo.png",
+    "size" : 61365,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/ep-med-dm-processus.png",
+    "size" : 283687,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/anImage.png",
+    "size" : 36288,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 216
+  },
+  {
+    "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
+    "size" : 3960,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 69,
+      "length" : 1
+    }]
+  }]
+}
