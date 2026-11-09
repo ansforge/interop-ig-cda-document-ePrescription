@@ -51,8 +51,6 @@ pages:
         title: Fonctionnel
         cas-usage.md:
             title: Cas d'usage
-        exigences-specifiques.md:
-            title: Exigences spécifiques
     implementations.md:
         title: Implémentations
         cda.md:
@@ -72,7 +70,8 @@ menu:
     Accueil: index.html
     Fonctionnel:
         Cas d'usage: cas-usage.html
-        Exigences spécifiques: exigences-specifiques.html
+        # TODO : URL de la CI du Document Core métier, à remplacer à sa publication par l'URL canonique https://interop.esante.gouv.fr/ig/document-core/exigencesSpecifiques.html
+        Exigences spécifiques: new-tab https://ansforge.github.io/interop-IG-metier-document-core/main/ig/fr/exigencesSpecifiques.html
     Implémentations:
         CDA: cda.html
     Ressources de conformité: artifacts.html
