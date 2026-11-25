@@ -1,0 +1,38 @@
+# ans.cda.fr.eprescription#0.1.0: Volets e-Prescription de Produits de santé et e-Dispensation de médicaments (CDA)(en)
+
+## Pages
+
+* [Accueil](index.md)
+* [Cas d'usage eDispensation](cas-usage-dispensation.md)
+* [Implémentations](implementations.md)
+* [Fonctionnel](fonctionnel.md)
+* [Historique des versions](change-log.md)
+* [Autres Ressources](autres_ressources.md)
+* [CDA eP-MED-DM](cda.md)
+* [Téléchargements et usages](annexe-downloads.md)
+* [CDA eDISP-MED](cda-dispensation.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Sécurité](annexe-securite.md)
+* [Artifacts Summary](artifacts.md)
+* [Cas d'usage ePrescription](cas-usage.md)
+
+## Resources
+
+### ValueSets
+
+* [ValueSet - FR ValueSet Sous-type de la ePrescription eP-MED-DM](ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.md)
+
+### Logical Profiles
+
+* [CDA - clinicalDocument eDISP-MED](StructureDefinition-fr-cda-clinical-document-edisp-med.md)
+* [CDA - clinicalDocument eP-MED-DM](StructureDefinition-fr-cda-clinical-document-ep-med-dm.md)
+
+### ImplementationGuides
+
+* [Volets e-Prescription de Produits de santé et e-Dispensation de médicaments (CDA)](ImplementationGuide-ans.cda.fr.eprescription.md)
+
+### Examples
+
+* [edisp-med (Binary)](Binary-edisp-med.md)
+* [ep-med-dm-poso-non-struct (Binary)](Binary-ep-med-dm-poso-non-struct.md)
+* [ep-med-dm-poso-struct (Binary)](Binary-ep-med-dm-poso-struct.md)

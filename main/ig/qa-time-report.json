@@ -1,0 +1,428 @@
+{
+  "date" : "Mon, 09 Nov, 2026 08:40:48 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-ans.cda.fr.eprescription.json",
+    "size" : 9822,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 43,
+      "length" : 277
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 45,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 45,
+      "length" : 72
+    },
+    {
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 9367
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 114,
+      "length" : 14
+    },
+    {
+      "activity" : "generate1",
+      "start" : 115,
+      "length" : 91
+    },
+    {
+      "activity" : "generate2",
+      "start" : 120,
+      "length" : 96
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 138,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 143,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-cda-clinical-document-ep-med-dm.json",
+    "size" : 34341,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 43,
+      "length" : 13
+    },
+    {
+      "activity" : "load",
+      "start" : 43,
+      "length" : 19
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 43,
+      "length" : 301
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 45,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 45,
+      "length" : 357
+    },
+    {
+      "activity" : "validate",
+      "start" : 46,
+      "length" : 3244
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 59,
+      "length" : 3
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 59,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 114,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 115,
+      "length" : 1573
+    },
+    {
+      "activity" : "generate2",
+      "start" : 121,
+      "length" : 8359
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 3685
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 134,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 143,
+      "length" : 83
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 159,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 159,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-valueset-ep-med-dm-sous-type-prescription.json",
+    "size" : 1225,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 43,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 43,
+      "length" : 132
+    },
+    {
+      "activity" : "load",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 45,
+      "length" : 168
+    },
+    {
+      "activity" : "validate",
+      "start" : 45,
+      "length" : 929
+    },
+    {
+      "activity" : "translate",
+      "start" : 114,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 116,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 175
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 143,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/resources/Binary-ep-med-dm-poso-non-struct.xml",
+    "size" : 210170,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 45,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 52708
+    },
+    {
+      "activity" : "translate",
+      "start" : 114,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 116,
+      "length" : 269
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 146
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 142,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/resources/Binary-ep-med-dm-poso-struct.xml",
+    "size" : 224561,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 112,
+      "length" : 2727
+    },
+    {
+      "activity" : "translate",
+      "start" : 114,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 116,
+      "length" : 243
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 154
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 373,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 3438,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 184,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/autres_ressources.md",
+    "size" : 171
+  },
+  {
+    "name" : "/input/pagecontent/annexe-securite.md",
+    "size" : 900,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/fonctionnel.md",
+    "size" : 338
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 4963,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cas-usage.md",
+    "size" : 4123,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 59
+  },
+  {
+    "name" : "/input/pagecontent/implementations.md",
+    "size" : 20,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/change-log.md",
+    "size" : 569,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 49,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cda.md",
+    "size" : 4007,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/annexe-downloads.md",
+    "size" : 1766
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/ci-sis-logo.png",
+    "size" : 61365
+  },
+  {
+    "name" : "/input/images/ep-med-dm-processus.png",
+    "size" : 283687,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/anImage.png",
+    "size" : 36288,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 216,
+    "processes" : [{
+      "activity" : "generateLogicals",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
+    "size" : 3960,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 129,
+      "length" : 1
+    }]
+  }]
+}

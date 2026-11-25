@@ -1,0 +1,20 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/cda/eprescription/ImplementationGuide/ans.cda.fr.eprescription",
+  "name" : "CDAFREPrescription",
+  "title" : "Volets e-Prescription de Produits de santé et e-Dispensation de médicaments (CDA)",
+  "description" : "Volets ePrescription (eP-MED-DM) et eDispensation (eDISP-MED) - Spécifications CDA",
+  "status" : "draft",
+  "package-id" : "ans.cda.fr.eprescription",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 25 Nov, 2026 09:28:38 +0000",
+  "dateISO8601" : "2026-11-25T09:28:38+00:00",
+  "errs" : 51,
+  "warnings" : 383,
+  "hints" : 371,
+  "broken-links" : 0,
+  "suppressed-hints" : 512,
+  "suppressed-warnings" : 0,
+  "version" : "5.0.0",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 3266408120
+}

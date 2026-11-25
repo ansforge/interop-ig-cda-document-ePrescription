@@ -1,0 +1,39 @@
+# Téléchargements et usages - Volets e-Prescription de Produits de santé et e-Dispensation de médicaments (CDA) v0.1.0
+
+## Téléchargements et usages
+
+### Téléchargement
+
+L'implementation guide contient un package [téléchargeable ici](../package.tgz) permettant de valider les instances par rapport aux profils qu'il contient.
+
+Pour cela, il suffit de télécharger le [package.tgz](../package.tgz) et l'importer dans un serveur, par exemple sur hapi en suivant ce [script python](https://github.com/nmdp-bioinformatics/igloader) open source.
+
+Ensemble des ressources téléchargeables :
+
+* [L'ensemble de la specification (zip)](../full-ig.zip)
+* [Package (tgz)](../package.tgz)
+
+#### Définitions
+
+* [Définitions JSON (zip)](../definitions.json.zip)
+* [Définitions XML (zip)](../definitions.xml.zip)
+* [Définitions Turtle (zip)](../definitions.ttl.zip)
+
+#### Exemples
+
+* [Exemples XML (zip)](../examples.xml.zip)
+* [Exemples JSON (zip)](../examples.json.zip)
+* [Exemples Turtle (zip)](../examples.ttl.zip)
+
+### Usage
+
+Ce guide d'implémentation définit la structure des documents CDA R2 niveau 3 eP-MED-DM et eDISP-MED attendus.
+
+Les logiciels qui produisent une ePrescription ou une eDispensation au format CDA doivent s'assurer de la conformité des documents générés au modèle eP-MED-DM 2024.01 ou eDISP-MED 2024.01. Pour cela, l'ANS met à disposition :
+
+* l'outil de vérification en local [TestContenuCDA](https://github.com/ansforge/TestContenuCDA-3-0), qui contrôle un document CDA par rapport au schéma XML CDA et aux schématrons du CI-SIS ;
+* les schématrons de conformité aux modèles eP-MED-DM 2024.01 : [CI-SIS_EP-MED-DM_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_EP-MED-DM_2024.01.sch) et eDISP-MED 2024.01 : [CI-SIS_eDISP-MED_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_eDISP-MED_2024.01.sch) ;
+* des exemples de documents, présentés dans les pages [CDA eP-MED-DM](cda.md) et [CDA eDISP-MED](cda-dispensation.md).
+
+Les documents peuvent également être vérifiés en ligne sur l'[espace de tests du CI-SIS](https://interop.esante.gouv.fr/).
+
