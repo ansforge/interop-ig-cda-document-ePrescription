@@ -20,7 +20,7 @@ La prescription existe sous **deux formats** :
     <p><i>Figure 1 – Processus global de la ePrescription et périmètre du volet eP-MED-DM</i></p>
 </div>
 
-Ce guide couvre **uniquement la création du document CDA** par le LPS du prescripteur (étape 5, cadre bleu).
+Pour la prescription, ce guide couvre **uniquement la création du document CDA** par le LPS du prescripteur (étape 5, cadre bleu). La dispensation qui en découle est décrite dans la page [Cas d'usage eDispensation](cas-usage-dispensation.html).
 
 ### Cas d'usage : créer une prescription de produits de santé
 

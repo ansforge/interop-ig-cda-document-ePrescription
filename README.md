@@ -2,7 +2,7 @@
 
 [![Workflow Init](https://github.com/ansforge/interop-ig-cda-document-ePrescription/actions/workflows/fhir-workflows.yml/badge.svg?branch=main)](https://github.com/ansforge/interop-ig-cda-document-ePrescription/actions/workflows/fhir-workflows.yml)
 
-Ce dépôt contient le guide d'implémentation (IG) **FR ePrescription (CDA)** : la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) au format CDA R2 niveau 3, correspondant au volet **eP-MED-DM 2024.01** du CI-SIS.
+Ce dépôt contient le guide d'implémentation (IG) **FR ePrescription et eDispensation (CDA)** : la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) et la eDispensation de médicaments au format CDA R2 niveau 3, correspondant aux volets **eP-MED-DM 2024.01** et **eDISP-MED 2024.01** du CI-SIS.
 
 * URL canonique : <https://interop.esante.gouv.fr/ig/cda/eprescription> (accessible après la première release)
 * Version de travail (branche `main`) : <https://ansforge.github.io/interop-ig-cda-document-ePrescription/main/ig>
@@ -20,27 +20,28 @@ La prescription existe sous deux formats :
 | **EPU** (format Cnam) | Base nationale des ePrescriptions | Support de la dispensation : le pharmacien retrouve la prescription grâce au code 2D et y enregistre les délivrances. |
 | **CDA R2 niveau 3 eP-MED-DM** | DMP du patient (Mon espace santé), MSSanté | Document médical partagé, consultable par le patient et les professionnels autorisés. **C'est l'objet de ce guide.** |
 
-Ce guide couvre uniquement la **création du document CDA** par le logiciel du prescripteur. Le modèle métier a été fourni par la Caisse nationale d'assurance maladie (Cnam), porteur du projet, et enrichi par l'ANS à partir du profil international IHE Pharmacy Community Prescription (PRE).
+Pour la prescription, ce guide couvre uniquement la **création du document CDA** par le logiciel du prescripteur. Le modèle métier a été fourni par la Caisse nationale d'assurance maladie (Cnam), porteur du projet, et enrichi par l'ANS à partir du profil international IHE Pharmacy Community Prescription (PRE).
+
+La **eDispensation de médicaments** (volet eDISP-MED) est créée par le Dossier Pharmaceutique (DP) à partir des informations saisies par le pharmacien dans son logiciel d'aide à la dispensation, puis déposée dans le DMP du patient. Son modèle métier a été établi à partir du profil international IHE Pharmacy Community Dispense (DIS).
 
 ## Contexte technique du projet
 
-Le document eP-MED-DM est un document CDA R2 niveau 3 à corps structuré, conforme aux profils IHE PCC et IHE PRE. Il s'appuie sur l'en-tête et les sections CDA définis dans le guide [FR Document Core (CDA)](https://interop.esante.gouv.fr/ig/cda/document-core/index.html).
+Les documents eP-MED-DM et eDISP-MED sont des documents CDA R2 niveau 3 à corps structuré, conformes au profil IHE PCC et respectivement aux profils IHE PRE et IHE DIS. Ils s'appuient sur l'en-tête, les sections et les entrées CDA définis dans le guide [FR Document Core (CDA)](https://interop.esante.gouv.fr/ig/cda/document-core/index.html).
 
-| Élément | Valeur |
-|---|---|
-| Modèle | eP-MED-DM 2024.01 |
-| templateId | `1.2.250.1.213.1.1.1.39` (extension `2024.01`) |
-| Type de document | `57833-6` (LOINC) - Prescription de produits de santé |
+| Modèle | templateId | Type de document |
+|---|---|---|
+| eP-MED-DM 2024.01 | `1.2.250.1.213.1.1.1.39` (extension `2024.01`) | `57833-6` (LOINC) - Prescription de produits de santé |
+| eDISP-MED 2024.01 | `1.2.250.1.213.1.1.1.54` (extension `2024.01`) | `60593-1` (LOINC) - Dispensation médicamenteuse |
 
 Contenu de l'IG :
 
-* **Profil** : `fr-cda-clinical-document-ep-med-dm`, structure du document eP-MED-DM (`input/fsh/CDA/profiles`) ;
+* **Profils** : `fr-cda-clinical-document-ep-med-dm` et `fr-cda-clinical-document-edisp-med`, structure des documents eP-MED-DM et eDISP-MED (`input/fsh/CDA/profiles`) ;
 * **Jeu de valeurs** : `fr-valueset-ep-med-dm-sous-type-prescription` (`input/fsh/CDA/valuesets`) ;
-* **Exemples** : posologie structurée et posologie non structurée (`input/resources`).
+* **Exemples** : eP-MED-DM avec posologie structurée et non structurée, eDISP-MED (`input/resources`).
 
 Dépendances principales : `hl7.cda.uv.core`, `ans.cda.fr.document-core`, `ans.fr.terminologies`.
 
-La conformité d'un document eP-MED-DM peut être vérifiée avec le schématron `CI-SIS_EP-MED-DM_2024.01.sch` de l'outil [TestContenuCDA](https://github.com/ansforge/TestContenuCDA-3-0).
+La conformité des documents peut être vérifiée avec les schématrons `CI-SIS_EP-MED-DM_2024.01.sch` et `CI-SIS_eDISP-MED_2024.01.sch` de l'outil [TestContenuCDA](https://github.com/ansforge/TestContenuCDA-3-0).
 
 # CI/CD
 

@@ -142,6 +142,7 @@ and specificationsVoletEPMEDDM 1..1
 * component.structuredBody.component[sectionCodeABarres] ^short = "Code 2D de la e-prescription. Cette section n'est pas créée si la prescription EPU n'a pas pu être générée."
 * component.structuredBody.component[sectionCodeABarres].section.title ^short = "Fixé à \"Code 2D de la prescription\"."
 * component.structuredBody.component[sectionCodeABarres].section.title.xmlText = "Code 2D de la prescription"
+* component.structuredBody.component[sectionCodeABarres].section.entry[frImageIllustrative] 1..1
 * component.structuredBody.component[sectionCodeABarres].section.entry 1..1
 * component.structuredBody.component[sectionCodeABarres].section.entry ^short = "Entrée FR-Image-illustrative : image du code 2D de la e-prescription encodée en B64."
 
