@@ -23,12 +23,12 @@ Ensemble des ressources téléchargeables :
 
 ### Usage
 
-Ce guide d'implémentation définit la structure des documents CDA R2 niveau 3 eP-MED-DM attendus.
+Ce guide d'implémentation définit la structure des documents CDA R2 niveau 3 eP-MED-DM et eDISP-MED attendus.
 
-Les logiciels qui produisent une ePrescription au format CDA doivent s'assurer de la conformité des documents générés au modèle eP-MED-DM 2024.01. Pour cela, l'ANS met à disposition :
+Les logiciels qui produisent une ePrescription ou une eDispensation au format CDA doivent s'assurer de la conformité des documents générés au modèle eP-MED-DM 2024.01 ou eDISP-MED 2024.01. Pour cela, l'ANS met à disposition :
 
 * l'outil de vérification en local [TestContenuCDA](https://github.com/ansforge/TestContenuCDA-3-0), qui contrôle un document CDA par rapport au schéma XML CDA et aux schématrons du CI-SIS ;
-* le schématron de conformité au modèle eP-MED-DM 2024.01 : [CI-SIS_EP-MED-DM_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_EP-MED-DM_2024.01.sch) ;
-* des exemples de documents eP-MED-DM, présentés dans la page [CDA](cda.html).
+* les schématrons de conformité aux modèles eP-MED-DM 2024.01 : [CI-SIS_EP-MED-DM_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_EP-MED-DM_2024.01.sch) et eDISP-MED 2024.01 : [CI-SIS_eDISP-MED_2024.01.sch](https://github.com/ansforge/TestContenuCDA-3-0/blob/main/schematrons/CI-SIS_eDISP-MED_2024.01.sch) ;
+* des exemples de documents, présentés dans les pages [CDA eP-MED-DM](cda.html) et [CDA eDISP-MED](cda-dispensation.html).
 
 Les documents peuvent également être vérifiés en ligne sur l'[espace de tests du CI-SIS](https://interop.esante.gouv.fr/).

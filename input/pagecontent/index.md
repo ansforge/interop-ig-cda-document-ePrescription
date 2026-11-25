@@ -1,6 +1,6 @@
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Guide de mise en œuvre de la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) au format CDA R2 niveau 3 : volet eP-MED-DM du CI-SIS.</b><br>
-Implementation guide for the ePrescription of health products (medicines and/or medical devices) in CDA R2 level 3 format: eP-MED-DM content profile of the French CI-SIS.
+<b>Guide de mise en œuvre de la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) et de la eDispensation de médicaments au format CDA R2 niveau 3 : volets eP-MED-DM et eDISP-MED du CI-SIS.</b><br>
+Implementation guide for the ePrescription of health products (medicines and/or medical devices) and the eDispensation of medicines in CDA R2 level 3 format: eP-MED-DM and eDISP-MED content profiles of the French CI-SIS.
 </p>
 
 {% if site.data.info.releaselabel == 'ci-build' %}
@@ -38,9 +38,17 @@ Le Cadre d'interopérabilité des Systèmes d'Information de Santé (CI-SIS) fix
 - compréhensibles par les professionnels des secteurs sanitaire et médico-social et les patients/usagers,
 - exploitables par les SI pour permettre la mise en œuvre de services à valeurs ajoutées à partir des données structurées contenues dans ces documents.
 
-**Ce guide** **interop-ig-cda-document-ePrescription** **décrit la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) et son implémentation au format CDA R2 niveau 3 (volet eP-MED-DM 2024.01).**
+**Ce guide** **interop-ig-cda-document-ePrescription** **décrit la ePrescription de produits de santé (médicaments et/ou dispositifs médicaux) et la eDispensation de médicaments, ainsi que leur implémentation au format CDA R2 niveau 3 :**
+
+| Volet | Document | Producteur | Type de document |
+|---|---|---|---|
+| **eP-MED-DM 2024.01** | ePrescription de médicaments et/ou de dispositifs médicaux | Logiciel du prescripteur | `57833-6` Prescription de produits de santé |
+| **eDISP-MED 2024.01** | eDispensation de médicaments | Dossier Pharmaceutique, à partir du logiciel du pharmacien | `60593-1` Dispensation médicamenteuse |
+{: .grid}
 
 #### Modèle métier
+
+##### ePrescription (eP-MED-DM)
 
 Le modèle métier correspond à l'expression des besoins fournie par la Caisse nationale d'assurance maladie (CNAM), porteur du projet, et enrichie par l'ANS au regard du profil international IHE PRE. Il est élaboré à partir de :
 
@@ -48,15 +56,24 @@ Le modèle métier correspond à l'expression des besoins fournie par la Caisse 
 - les spécifications de la ePrescription unifiée (EPU), publiées dans l'espace industriel du GIE SESAM-Vitale ;
 - le profil [IHE Pharmacy Community Prescription (PRE)](https://www.ihe.net/uploadedFiles/Documents/Pharmacy/IHE_Pharmacy_Suppl_PRE.pdf).
 
-Le périmètre de ce guide se limite à l'élaboration de la ePrescription au format CDA, destinée à être déposée dans le DMP du patient ou échangée par messagerie sécurisée de santé. Voir la page [Cas d'usage](cas-usage.html).
+Le périmètre se limite à l'élaboration de la ePrescription au format CDA, destinée à être déposée dans le DMP du patient ou échangée par messagerie sécurisée de santé. Voir la page [Cas d'usage ePrescription](cas-usage.html).
+
+##### eDispensation (eDISP-MED)
+
+Le modèle métier de la eDispensation de médicaments a été établi à partir du profil international [IHE Pharmacy Community Dispense (DIS)](https://www.ihe.net/uploadedFiles/Documents/Pharmacy/IHE_Pharmacy_Suppl_DIS.pdf). La eDispensation est créée par le Dossier Pharmaceutique (DP) à partir des informations saisies par le pharmacien dans son logiciel d'aide à la dispensation, puis déposée dans le DMP du patient.
+
+Le périmètre se limite à la eDispensation de médicaments ; la dispensation de dispositifs médicaux est hors périmètre. Voir la page [Cas d'usage eDispensation](cas-usage-dispensation.html).
 
 #### Implémentation CDA
 
-Ce guide spécifie le modèle de la ePrescription de produits de santé dans le format CDA R2 niveau 3 à corps structuré, conforme aux profils IHE Patient Care Coordination (PCC) et IHE Pharmacy Community Prescription (PRE). Il s'appuie sur l'en-tête et les sections CDA définis dans FR Document Core (CDA). Voir la page [CDA](cda.html).
+Ce guide spécifie deux modèles de documents CDA R2 niveau 3 à corps structuré, qui s'appuient sur l'en-tête, les sections et les entrées CDA définis dans FR Document Core (CDA) :
+
+- **eP-MED-DM**, conforme aux profils IHE Patient Care Coordination (PCC) et IHE Pharmacy Community Prescription (PRE). Voir la page [CDA eP-MED-DM](cda.html) ;
+- **eDISP-MED**, conforme aux profils IHE PCC et IHE Pharmacy Community Dispense (DIS). Voir la page [CDA eDISP-MED](cda-dispensation.html).
 
 ### Gouvernance
 
-Ce guide d'implémentation FR ePrescription (CDA) est géré par l'Agence du Numérique en Santé (ANS).
+Ce guide d'implémentation FR ePrescription et eDispensation (CDA) est géré par l'Agence du Numérique en Santé (ANS).
 
 ### Droits de propriété intellectuelle
 

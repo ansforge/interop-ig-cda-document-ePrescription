@@ -3,8 +3,8 @@
 id: ans.cda.fr.eprescription
 canonical: https://interop.esante.gouv.fr/ig/cda/eprescription # the last part of canonical and id must be the same
 name: CDAFREPrescription # Should be an acronym
-title: Volet e-Prescription de Produits de santé (CDA)
-description: Volet ePrescription - Spécifications CDA
+title: Volets e-Prescription de Produits de santé et e-Dispensation de médicaments (CDA)
+description: Volets ePrescription (eP-MED-DM) et eDispensation (eDISP-MED) - Spécifications CDA
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
   url: https://esante.gouv.fr
@@ -50,11 +50,15 @@ pages:
     fonctionnel.md:
         title: Fonctionnel
         cas-usage.md:
-            title: Cas d'usage
+            title: Cas d'usage ePrescription
+        cas-usage-dispensation.md:
+            title: Cas d'usage eDispensation
     implementations.md:
         title: Implémentations
         cda.md:
-            title: CDA
+            title: CDA eP-MED-DM
+        cda-dispensation.md:
+            title: CDA eDISP-MED
     change-log.md:
         title: Historique des versions
     autres_ressources.md:
@@ -69,11 +73,13 @@ pages:
 menu:
     Accueil: index.html
     Fonctionnel:
-        Cas d'usage: cas-usage.html
+        Cas d'usage ePrescription: cas-usage.html
+        Cas d'usage eDispensation: cas-usage-dispensation.html
         # TODO : URL de la CI du Document Core métier, à remplacer à sa publication par l'URL canonique https://interop.esante.gouv.fr/ig/document-core/exigencesSpecifiques.html
         Exigences spécifiques: new-tab https://ansforge.github.io/interop-IG-metier-document-core/main/ig/fr/exigencesSpecifiques.html
     Implémentations:
-        CDA: cda.html
+        CDA eP-MED-DM: cda.html
+        CDA eDISP-MED: cda-dispensation.html
     Ressources de conformité: artifacts.html
     Historique: change-log.html
     Autres ressources:
@@ -108,3 +114,12 @@ resources:
     name: Exemple eP-MED-DM 2024.01 - posologie non structurée
     description: Prescription de médicaments avec posologie exprimée uniquement sous forme textuelle.
     exampleCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-ep-med-dm
+  Binary/edisp-med:
+    extension:
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format
+        valueCode: application/xml
+      - url: http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-logical
+        valueCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-edisp-med
+    name: Exemple eDISP-MED 2024.01
+    description: Dispensation de deux médicaments, avec référence à la prescription, instructions au patient, notes du dispensateur, posologie modifiée et substitution par un générique.
+    exampleCanonical: https://interop.esante.gouv.fr/ig/cda/eprescription/StructureDefinition/fr-cda-clinical-document-edisp-med
